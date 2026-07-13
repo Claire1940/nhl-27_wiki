@@ -10,14 +10,7 @@
       "twitterDescription": "Track NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, and official updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
