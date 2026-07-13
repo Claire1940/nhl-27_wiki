@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "NHL 27 Wiki - Release Date, Trailer, Platforms & Modes",
+      "description": "Track NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, editions, and official updates.",
+      "keywords": "NHL 27, EA Sports, PS5, Xbox Series X|S, release date, trailer, gameplay, HUT, Franchise, Be a Pro",
+      "ogTitle": "NHL 27 Wiki - Release Date, Trailer, Platforms & Modes",
+      "ogDescription": "Track NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, editions, and official updates.",
+      "twitterTitle": "NHL 27 Wiki - Release Date, Trailer, Platforms & Modes",
+      "twitterDescription": "Track NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, and official updates."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Visit Official Site",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Next-Gen Ice Hockey Simulation",
+    "title": "NHL 27 Wiki",
+    "description": "Track EA SPORTS NHL 27 as the next ice hockey simulation approaches launch, including reveal news, platforms, editions, modes, ratings, and online play.",
+    "getFreeCodesCTA": "View Latest News",
+    "playOnRobloxCTA": "Wishlist NHL 27",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Fall 2026",
+        "label": "Launch Window"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "July 16, 2026",
+        "label": "Reveal Trailer"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2",
+        "label": "Confirmed Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "12",
+        "label": "Online Players"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Get Ready for NHL 27",
+    "description": "Wishlist EA SPORTS NHL 27 now on PS5 and Xbox Series X|S, and follow the official EA SPORTS NHL channels for reveal news, trailers, and launch updates.",
+    "joinCommunity": "Join the Community",
+    "joinGame": "Wishlist NHL 27"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "NHL 27 Wiki",
+    "description": "Your complete resource hub for EA SPORTS NHL 27 release news, reveal trailer, platforms, editions, modes, ratings, and official updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "reddit": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 NHL 27 Wiki. Not affiliated with Electronic Arts or the EA SPORTS NHL developers.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
