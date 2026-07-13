@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "NHL 26 Official Reveal Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "EA SPORTS NHL 26 official reveal trailer. Placeholder until the NHL 27 reveal trailer drops on July 16, 2026.",
+        uploadDate: "2025-08-20",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/TI79ySF0N0g",
+        url: "https://www.youtube.com/watch?v=TI79ySF0N0g",
       },
     ],
   };
@@ -276,11 +276,11 @@ export default function HomePageClient({
 
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="TI79ySF0N0g"
+              title="NHL 26 Official Reveal Trailer"
             />
           </div>
         </div>

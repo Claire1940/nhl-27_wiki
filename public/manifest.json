@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "NHL 27 Wiki - Release Date, Trailer, Platforms & Modes",
+  "short_name": "NHL 27",
+  "description": "NHL 27 Wiki tracks EA SPORTS NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, editions, and official updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#00ccff",
+  "background_color": "#0a0e14",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
