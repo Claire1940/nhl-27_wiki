@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Agents libres NHL 27 : Meilleurs recrutements et guide du mode Franchise",
+  description: "Maîtrisez le marché des agents libres de NHL 27. Découvrez les cibles d'élite, les stratégies de plafond salarial et les étapes de négociation de contrat pour bâtir un champion de la Coupe Stanley.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=NHL+27+Free+Agents",
+  date: "2026-07-13",
+  author: "Équipe du Wiki NHL 27"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Marché principal** : Ciblez des **agents libres NHL 27** à fort impact pour combler immédiatement les failles de votre effectif.
+- **Plafond salarial** : Équilibrez les exigences des stars d'élite avec la profondeur à long terme pour éviter les pénalités de plafond.
+- **Logique de contrat** : Offrez des salaires légèrement plus élevés sur des contrats à court terme pour attirer les meilleurs joueurs.
+- **Priorité au recrutement** : Dénichez des perles rares et des joueurs de soutien avant la frénésie du 1er juillet.
+</Callout>
+
+<Section icon={Map} title="Naviguer sur le marché des agents libres de NHL 27">
+
+Bâtir un effectif de championnat en mode Franchise nécessite de maîtriser l'intersaison. Le marché des **agents libres NHL 27** est l'outil ultime pour améliorer rapidement votre équipe, permettant aux directeurs généraux de contourner le cycle de développement lent du repêchage et d'injecter immédiatement des talents d'élite dans leur alignement. 
+
+Lorsque le marché s'ouvre, les joueurs sont classés par rôle, note globale (GEN) et attentes contractuelles. Naviguer efficacement dans ce menu fait toute la différence entre obtenir une pierre angulaire de franchise et surpayer un vétéran sur le déclin.
+
+| Niveau du joueur | GEN typique | Fourchette de salaire | Rôle principal dans l'effectif |
+| :--- | :--- | :--- | :--- |
+| **Franchise d'élite** | 90+ | 9,5 M$ - 12,5 M$ | Star de premier trio, unité de supériorité numérique principale |
+| **Soutien de premier plan** | 85-89 | 6,0 M$ - 9,0 M$ | Attaquant du top 6, défenseur du top 4 |
+| **Profondeur clé** | 81-84 | 2,5 M$ - 5,5 M$ | Joueur de troisième trio physique, spécialiste du désavantage numérique |
+| **Compléments économiques** | 77-80 | 950 K$ - 2,0 M$ | Joueur d'énergie de quatrième trio, profondeur AHL |
+
+<Callout type="tip" title="Conseil de recruteur pro">
+N'attendez pas l'intersaison pour planifier vos signatures. Surveillez le statut contractuel des futurs agents libres pendant la saison régulière et identifiez les cibles potentielles qui refusent de signer une prolongation avec leur équipe actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cibles d'élite et classements par poste">
+
+Lors de la planification de vos signatures, vous devez classer les joueurs selon leur style et leur compatibilité de rôle. Le simple fait d'accumuler des joueurs à forte note globale (GEN) peut gâcher la chimie de vos trios, ce qui influence grandement les performances sur la glace. 
+
+Le tableau ci-dessous présente les meilleurs archétypes à cibler en fonction des besoins spécifiques de votre équipe à chaque poste.
+
+| Poste | Archétype ciblé | Attributs clés | Intégration idéale |
+| :--- | :--- | :--- | :--- |
+| **Centre** | Attaquant polyvalent | Mises au jeu, Conscience défensive, Passes | Mises en jeu en zone défensive, désavantage numérique |
+| **Ailier** | Tireur d'élite | Précision du tir du poignet, Vitesse, Conscience offensive | Buteur de premier trio, supériorité numérique |
+| **Défenseur** | Défenseur défensif | Mises en échec, Blocage de tirs, Harponnage | Neutralisation des meilleurs trios adverses |
+| **Gardien** | Hybride | Positionnement, Vision, Contrôle des retours | Gardien partant de confiance, pilier des séries |
+
+<CardGrid cols={3}>
+  <Card title="Le tireur d'élite">
+    - **Fort impact offensif**
+    - Améliore l'efficacité en supériorité numérique
+    - Nécessite une part importante du plafond salarial
+  </Card>
+  <Card title="Le centre polyvalent">
+    - **Contrôle la glace**
+    - Domine les cercles de mise au jeu
+    - Stabilise les lignes défensives
+  </Card>
+  <Card title="Le défenseur défensif">
+    - **Protège le filet**
+    - Fort engagement physique
+    - Réduit la moyenne de buts alloués
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement sur le déclin lié à l'âge">
+Soyez prudent lorsque vous offrez des contrats à long terme (5 ans et plus) à des joueurs de plus de 31 ans. Leurs attributs chutent souvent brutalement après une ou deux saisons, vous laissant avec un contrat coûteux et impossible à échanger.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de négociation de contrat étape par étape">
+
+Obtenir des talents de premier plan nécessite plus que de simplement leur jeter de l'argent. Vous devez gérer leur niveau d'intérêt, évaluer les offres concurrentes des DG rivaux et structurer des contrats qui protègent votre futur plafond salarial.
+
+<Steps>
+  <Step num="1" title="Évaluer les besoins de l'effectif">
+    Passez en revue la profondeur de votre effectif à chaque poste, votre espace sous le plafond salarial et les futures prolongations de contrats des recrues avant l'ouverture du marché des agents libres.
+  </Step>
+  <Step num="2" title="Filtrer le marché">
+    Triez la liste des agents libres par GEN, âge et poste. Ajoutez vos cibles prioritaires à votre liste de surveillance pour suivre les offres concurrentes.
+  </Step>
+  <Step num="3" title="Analyser l'intérêt du joueur">
+    Vérifiez la jauge d'intérêt du joueur. Les joueurs très intéressés par votre franchise sont plus enclins à accepter des contrats avantageux pour l'équipe.
+  </Step>
+  <Step num="4" title="Structurer l'offre">
+    Ajustez la durée du contrat et le salaire. Proposez des structures à salaire dégressif (front-loaded) ou progressif (back-loaded) selon vos projections futures de plafond.
+  </Step>
+  <Step num="5" title="Soumettre et surveiller">
+    Soumettez l'offre et faites avancer le calendrier jour après jour. Soyez prêt à augmenter votre offre si une équipe rivale propose une enchère supérieure.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Astuce de négociation">
+Si un joueur a plusieurs offres, vous pouvez souvent remporter la mise sans augmenter le salaire annuel en ajoutant une clause de non-mouvement (NMC) ou en ajoutant une année supplémentaire à la durée du contrat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Plafond salarial et stratégies de gestion de l'effectif">
+
+La gestion du plafond salarial est l'aspect le plus difficile du mode Franchise. Signer des joueurs vedettes peut instantanément transformer votre équipe en prétendante au titre, mais dépenser trop vous obligera à échanger de précieux jeunes espoirs.
+
+| Type de stratégie | Idéal pour | Avantages | Inconvénients |
+| :--- | :--- | :--- | :--- |
+| **Gagner maintenant** | Prétendants | Maximise la force de l'effectif actuel | Crée de graves problèmes de plafond dans les années futures |
+| **Contrats de transition** | Équipes en développement | Garde les jeunes stars sous contrôle | Les joueurs exigent des augmentations masives plus tard |
+| **Minimums vétérans** | Équipes limitées par le plafond | Remplit des rôles de soutien pour moins de 1 M$ | Faible impact sur la glace, aucune valeur d'échange |
+
+<Callout type="info" title="Règle de conformité du plafond">
+Laissez toujours au moins 2,0 M$ à 3,0 M$ d'espace sous le plafond au début de la saison régulière. Cette flexibilité vous permet d'absorber des contrats à la date limite des transactions ou de rappeler des joueurs blessés de votre club-école de la AHL.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de l'intersaison pour réussir">
+
+Utilisez cette liste de contrôle à chaque intersaison pour vous assurer de maximiser votre budget et de recruter les meilleurs talents possibles sans compromettre l'avenir de votre équipe.
+
+<Checklist
+  id="free-agency-checklist"
+  title="Étapes clés de l'intersaison :"
+  items={[
+    "Prolonger les joueurs clés avant le 1er juillet",
+    "Identifier et soumettre une offre qualificative aux agents libres avec restriction (RFA)",
+    "Libérer de l'espace sous le plafond en échangeant des joueurs de soutien surpayés",
+    "Soumettre des offres dès le premier jour aux cibles prioritaires des agents libres",
+    "Combler les places restantes de l'effectif avec des contrats de vétérans bon marché"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment signer des agents libres avec restriction dans NHL 27 ?",
+    answer: "Pour signer des agents libres avec restriction (RFA), vous devez soumettre une offre hostile. Si le joueur l'accepte et que son équipe d'origine refuse de s'aligner sur l'offre, vous obtiendrez le joueur mais devrez compenser l'équipe d'origine avec des choix de repêchage basés sur la valeur du contrat."
+  },
+  {
+    question: "Puis-je signer des joueurs directement pour mon club-école de la AHL ?",
+    answer: "Oui. Vous pouvez signer des agents libres moins bien notés (généralement en dessous de 75 GEN) avec des contrats à deux volets. Cela vous permet de les envoyer dans la AHL sans qu'ils aient à passer par le ballottage."
+  },
+  {
+    question: "Pourquoi certains agents libres refusent-ils de signer avec mon équipe ?",
+    answer: "Les joueurs prennent en compte plusieurs facteurs au-delà de l'argent, notamment la taille du marché de votre équipe, la compétitivité de l'effectif, le personnel d'entraîneurs et le rôle qui leur est destiné dans l'équipe. Les équipes en reconstruction doivent souvent payer le prix fort pour attirer les meilleurs talents."
+  },
+  {
+    question: "Quelle est la durée maximale de contrat que je peux proposer ?",
+    answer: "La durée maximale de contrat que vous pouvez proposer à un agent libre dans le jeu est de 7 ans. Vous ne pouvez proposer une prolongation de 8 ans qu'aux joueurs qui figurent déjà dans votre effectif."
+  }
+]} />
+
+</Section>

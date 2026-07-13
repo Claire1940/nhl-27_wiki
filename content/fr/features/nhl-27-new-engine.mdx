@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nouvel engin NHL 27 : Physique Next-Gen et refonte des commandes",
+  description: "Découvrez le bond technique majeur du nouvel engin de NHL 27, incluant des commandes Skill Stick repensées, une physique de motion-matching et des mécaniques de feintes avancées.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=NHL+27+New+Engine+Guide",
+  date: "2026-07-13",
+  author: "L'équipe Wiki NHL 27",
+  keywords: "NHL 27, engin de jeu, physique, skill stick, motion matching, hockey"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Le nouvel engin de NHL 27** introduit une refonte complète du système physique pour des interactions rondelle-glace plus réalistes.
+- **Le remappage du Skill Stick** déplace les feintes de corps sur L3 et les sauts de rondelle sur R3 pour un maniement plus intuitif.
+- **La technologie Motion Matching** assure des transitions plus fluides entre le patinage, le tir et les mises en échec.
+- **Les feintes avancées** incluent désormais les déviations aériennes, les feintes de pied et plusieurs variantes du mouvement Michigan.
+- **Les visuels améliorés** exploitent l'éclairage de nouvelle génération pour offrir une expérience de hockey de qualité télévisuelle.
+</Callout>
+
+<Section icon={Sparkles} title="Aperçu technique du nouvel engin de NHL 27">
+
+La transition vers le **nouvel engin de NHL 27** représente l'avancée technique la plus significative de l'histoire de la franchise. En passant à une architecture basée sur la physique plus robuste, le jeu élimine les animations "pré-calculées" qui handicapaient souvent les itérations précédentes. Cette mise à jour se concentre sur trois piliers centraux : la friction réaliste de la rondelle, la répartition du poids des joueurs et un système de collision repensé qui prend en compte l'impact spécifique des membres.
+
+**Points forts de la vidéo :**
+- **Remappage des commandes** : Modification de la logique du Skill Stick pour séparer le mouvement du corps du maniement du bâton.
+- **Feintes dynamiques** : Introduction de la feinte de pied et des mécaniques de frappe de rondelle en plein vol.
+- **Variantes du Michigan** : Nouvelles façons d'exécuter ce mouvement iconique, incluant des variantes avec rotation et levée.
+- **Interaction avec le gardien** : Logique améliorée pour pousser la rondelle au-delà des gardiens lors des rencontres à bout portant.
+
+<YouTubeEmbed videoId="LO3RwEH8gCU" title="Tutoriel de Trick Shots et feintes NHL 27 créé par des fans" />
+
+Le **nouvel engin de NHL 27** utilise un système exclusif de motion-matching. Contrairement au mélange d'animations traditionnel, le motion-matching parcourt une vaste bibliothèque de mouvements de hockey réels en temps réel pour trouver la transition la plus naturelle pour chaque image. Cela permet aux défenseurs de pivoter de manière plus réaliste et aux attaquants de maintenir leur élan tout en protégeant la rondelle.
+
+| Fonctionnalité | Ancien engin | Nouvel engin NHL 27 |
+| :--- | :--- | :--- |
+| **Modèle physique** | Animations prédéterminées | Motion matching en temps réel |
+| **Logique de la rondelle** | Magnétisée aux bâtons | Objet physique indépendant |
+| **Collision** | Ragdoll corps complet | Logique d'impact par membre |
+| **Surface de la glace** | Texture statique | Dégradation dynamique et projections |
+| **Éclairage** | Illumination globale | Réflexions par lancer de rayons |
+
+<Callout type="tip" title="Conseil de Pro">
+L'accent mis par le nouvel engin sur l'élan signifie que les "accélérations soudaines" (speed bursting) sont moins efficaces que les années précédentes. Concentrez-vous sur le maintien d'une trajectoire de patinage appropriée pour utiliser le poids de votre joueur dans les batailles pour la rondelle.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Skill Stick et commandes repensés">
+
+Avec le **nouvel engin de NHL 27**, le schéma de commande a été affiné pour offrir une plus grande précision. Le changement le plus notable est la séparation du mouvement du corps du joueur et du maniement du bâton. En remappant des feintes spécifiques sur le stick gauche et des actions dédiées à la rondelle sur les boutons du stick droit, les joueurs peuvent exécuter des manœuvres complexes avec nettement moins de latence.
+
+| Commande | Action dans NHL 27 | Avantage tactique |
+| :--- | :--- | :--- |
+| **L3 (Pression)** | Feinte de jambe / Frisson corporel | Figer les défenseurs sans perdre de vitesse |
+| **R1 + RS Bas/Haut** | Tir entre les jambes | Marquage rapide dans des espaces restreints |
+| **L1 + LS Bas** | Coup de patin | Contourner les harpignages en zone neutre |
+| **L1 + R3 (Appui)** | Saut de rondelle | Dégager la zone ou préparer une déviation |
+| **L1 + R3 (Maintenir)** | Préparation Michigan | Initier le ramassage de rondelle de haut niveau |
+
+<CardGrid cols={2}>
+  <Card title="Logique du corps (Stick gauche)">
+    - Gère le transfert de poids du joueur.
+    - Contrôle la direction des feintes de jambes.
+    - Utilisé pour incliner le corps pour la protection de la rondelle.
+  </Card>
+  <Card title="Logique du bâton (Stick droit)">
+    - Dédié strictement à la manipulation de la rondelle.
+    - Contrôle la puissance et la précision du tir.
+    - Gère la hauteur des sauts de rondelle et des passes soulevées.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important">
+Le remappage de R3 et L3 peut nécessiter plusieurs matchs pour être maîtrisé. Entraînez-vous en mode Patinage libre pour développer votre mémoire musculaire avant de vous lancer dans des matchs compétitifs HUT ou World of Chel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Scoring avancé : Déviations aériennes et Trick Shots">
+
+Le **nouvel engin de NHL 27** introduit une verticalité au jeu qui manquait auparavant. Les joueurs peuvent désormais frapper la rondelle en plein vol avec précision, permettant des buts spectaculaires de type "trick shot". Ceci est particulièrement efficace lorsque la vue du gardien est masquée ou lors d'une tentative de redirection d'une passe haute soulevée.
+
+<Steps>
+  <Step num="1" title="Initier le saut de rondelle">
+    Tout en maintenant L1/LB, poussez le skill stick (RS) vers le bas et appuyez sur R3. Relâchez le skill stick pour lancer la rondelle en l'air.
+  </Step>
+  <Step num="2" title="Suivre la chute de la rondelle">
+    Gardez les yeux sur l'ombre de la rondelle. Le **nouvel engin de NHL 27** fournit un indice visuel subtil lorsque la rondelle est à portée de tir.
+  </Step>
+  <Step num="3" title="Exécuter la frappe en plein vol">
+    Donnez un coup sec avec le skill stick (RS) en direction du filet ou d'un coéquipier. Vous pouvez utiliser le stick gauche (LS) pour viser un coin spécifique du but.
+  </Step>
+  <Step num="4" title="Suivi du mouvement">
+    Maintenez votre direction de patinage pour éviter une pénalité d'obstruction sur le gardien si votre élan vous emporte dans la zone du demi-cercle.
+  </Step>
+</Steps>
+
+Au-delà des déviations aériennes, le mouvement "Michigan" a été étendu. Vous pouvez désormais effectuer une variante en pivot (spin-o-rama) en maintenant L2/LT pendant la rotation. Cela ajoute une couche d'imprévisibilité qui rend la tâche beaucoup plus difficile pour les défenseurs pour synchroniser leurs mises en échec.
+
+| Type de mouvement | Difficulté de saisie | Taux de réussite |
+| :--- | :--- | :--- |
+| **Michigan standard** | Élevée | Modéré |
+| **Michigan en pivot** | Très élevée | Faible |
+| **Coup de patin vers tir** | Modérée | Élevé |
+| **Déviation aérienne** | Élevée | Modéré |
+| **Saut entre les jambes** | Modérée | Élevé |
+
+<Callout type="success" title="Conseil de réussite">
+Le mouvement de coup de patin vers tir (L1 + LS Bas puis RS Haut) est actuellement le moyen le plus efficace de battre les gardiens dans les situations d'échappée en 1 contre 1 dans la version actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mécaniques défensives et améliorations physiques">
+
+La défense dans le **nouvel engin de NHL 27** ne consiste plus seulement à marteler le harpignage. Le nouveau système de "Posture défensive" permet aux joueurs d'utiliser leur portée plus efficacement. La physique bâton-sur-rondelle est désormais calculée en fonction de la vélocité du bâton et de l'angle de rotation de la rondelle, rendant le jeu défensif plus gratifiant et moins aléatoire.
+
+<Checklist
+  id="defensive-goals"
+  title="Liste de contrôle de maîtrise défensive :"
+  items={[
+    "Maîtriser le nouveau positionnement corporel L3 pour bloquer le long des bandes",
+    "S'entraîner à synchroniser le saut de rondelle R3 pour dégager la zone sous pression",
+    "Utiliser les mécaniques de soulèvement de bâton améliorées pour perturber les tireurs",
+    "Apprendre à utiliser la feinte de pied défensivement pour sortir la rondelle du demi-cercle"
+  ]}
+/>
+
+L'engin améliore également l'IA des gardiens. Les gardiens suivent désormais la rondelle des yeux et de la tête indépendamment du mouvement de leur corps. Si une rondelle est lancée en l'air, le gardien regardera vers le haut de manière réaliste, ce qui peut laisser momentanément la partie inférieure du filet vulnérable — une stratégie clé pour les joueurs offensifs utilisant les nouveaux trick shots.
+
+| Outil défensif | Meilleure utilisation | Niveau de risque |
+| :--- | :--- | :--- |
+| **Bâton actif** | Déni de zone neutre | Faible |
+| **Frisson corporel (L3)** | Batailles le long des bandes | Modéré |
+| **Soulèvement de bâton** | Batailles devant le filet | Élevé (Risque de pénalité) |
+| **Plongeon de blocage** | Passes transversales | Très élevé |
+
+<Callout type="info" title="Fait sur l'engin">
+Le **nouvel engin de NHL 27** calcule plus de 500 points de contact sur l'équipement du joueur, garantissant que les rondelles déviant sur les jambières ou les épaulières se comportent avec une précision physique totale.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Configuration requise et optimisation">
+
+Pour gérer la complexité du **nouvel engin de NHL 27**, le jeu nécessite un matériel moderne. Le système de motion-matching et l'éclairage par lancer de rayons sont intensifs pour le processeur et la carte graphique. Pour les joueurs PC, un SSD est obligatoire pour gérer le streaming d'atouts en temps réel requis pour la transition fluide entre le gameplay et les cinématiques de diffusion.
+
+| Composant | Configuration minimale | Recommandée (4K/60) |
+| :--- | :--- | :--- |
+| **CPU** | Intel i5-12400 / Ryzen 5 5600 | Intel i7-14700K / Ryzen 9 7900X |
+| **GPU** | RTX 3060 / RX 6600 XT | RTX 4080 / RX 7900 XTX |
+| **RAM** | 16 Go DDR4 | 32 Go DDR5 |
+| **Stockage** | 100 Go SSD NVMe | 100 Go SSD NVMe Gen4 |
+
+<Callout type="warning" title="Avertissement">
+Les joueurs sur consoles de génération précédente (PS4/Xbox One) n'auront pas accès à l'intégralité des fonctionnalités du **nouvel engin de NHL 27**, car le système de motion-matching est exclusif à la PS5, à la Xbox Series X|S et au PC.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ NHL 27">
+
+<FAQ items={[
+  {
+    question: "Quel est le plus grand changement dans le nouvel engin de NHL 27 ?",
+    answer: "Le plus grand changement est l'implémentation de la technologie de motion-matching, qui remplace les animations statiques par des mouvements dynamiques basés sur la physique pour les joueurs et la rondelle."
+  },
+  {
+    question: "Puis-je toujours utiliser les anciennes commandes Skill Stick ?",
+    answer: "Bien qu'un schéma de commande 'Héritage' soit disponible, il ne prend pas en charge les nouvelles mécaniques de feintes avancées et de déviation aérienne introduites dans le nouvel engin."
+  },
+  {
+    question: "Comment effectuer le nouveau but par déviation aérienne ?",
+    answer: "Vous devez d'abord lancer la rondelle en l'air avec L1 + R3, puis synchroniser un coup de stick droit vers le filet pendant que la rondelle est à hauteur de taille."
+  },
+  {
+    question: "Le nouvel engin est-il disponible sur toutes les plateformes ?",
+    answer: "Non, l'intégralité des fonctionnalités du nouvel engin de NHL 27, incluant le motion-matching et le lancer de rayons, est uniquement disponible sur PlayStation 5, Xbox Series X|S et PC."
+  }
+]} />
+
+</Section>

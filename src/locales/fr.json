@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "release": "Sortie",
+    "platforms": "Plateformes",
+    "cover": "Couverture",
+    "features": "Caractéristiques",
+    "modes": "Modes",
+    "roster": "Effectif",
+    "media": "Médias"
+  }
+}

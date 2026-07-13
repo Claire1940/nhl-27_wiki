@@ -10,7 +10,16 @@
       "twitterDescription": "Track NHL 27 release news, reveal trailer, confirmed PS5 and Xbox Series X|S platforms, gameplay, modes, ratings, and official updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "cover": "Cover",
+    "features": "Features",
+    "modes": "Modes",
+    "roster": "Roster",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -584,125 +593,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "NHL 27 Guides",
-      "description": "Complete NHL 27 guides from beginner controls to advanced strategies across every game mode.",
-      "metaTitle": "NHL 27 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete NHL 27 guides covering beginner controls, gameplay systems, Hockey Ultimate Team, World of Chel, Franchise, and Be A Pro strategies.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are NHL 27 Guides?",
-      "whatIsDescription": "Comprehensive guides covering NHL 27 gameplay mechanics, controls, and every major mode, from first steps on the ice to advanced competitive tactics.",
-      "why": "Why read NHL 27 guides?",
+    "guide": {
+      "title": "NHL 27 Guide",
+      "description": "Complete NHL 27 beginner guide and controls reference, from first steps on the ice to core skating, shooting, passing, and defensive mechanics.",
+      "metaTitle": "NHL 27 Guide - Beginner Controls and Gameplay Basics",
+      "metaDescription": "Start strong with the NHL 27 beginner guide covering controls, skating, shooting, passing, defense, faceoffs, and a first-hour practice route.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the NHL 27 Guide?",
+      "whatIsDescription": "The NHL 27 guide walks new players through controls, on-ice mechanics, and a structured first-hour practice route, covering skating, shooting, passing, defense, and faceoffs on both PlayStation and Xbox.",
+      "why": "Why use the NHL 27 guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand NHL 27 skating, shooting, passing, and the X-Factor system",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven practice routes from Rookie to competitive play",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for HUT, World of Chel, and Franchise"
+        "step1Title": "Learn the Controls",
+        "step1Description": "Master Hybrid and Skill Stick inputs for skating, shooting, passing, and deking",
+        "step2Title": "Build a Practice Route",
+        "step2Description": "Follow a clear progression from Free Skate to your first Rookie games",
+        "step3Title": "Play Smarter Defense",
+        "step3Description": "Defend without penalties using positioning, poke checks, and stick lifts"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All NHL 27 Guides"
     },
-    "crafting": {
-      "title": "NHL 27 Builds",
-      "description": "Master NHL 27 loadouts, player builds, Ability Points, and X-Factor setups for every position and mode.",
-      "metaTitle": "NHL 27 Builds - Loadouts, Ability Points & X-Factors",
-      "metaDescription": "Master NHL 27 builds with loadouts, Ability Points, X-Factor abilities, and player class setups for forwards, defensemen, and goalies.",
-      "categoryLabel": "BUILDS & LOADOUTS",
-      "whatIs": "What are NHL 27 Builds?",
-      "whatIsDescription": "NHL 27 builds cover World of Chel loadouts, player classes, attributes, and X-Factor combinations that shape how each skater and goalie performs on the ice.",
-      "why": "Why plan your NHL 27 build?",
+    "release": {
+      "title": "NHL 27 Release",
+      "description": "Everything about the NHL 27 release date, announcement, reveal, beta, pre-order, and price across every region and store.",
+      "metaTitle": "NHL 27 Release Date, Reveal, Beta and Pre-Order Guide",
+      "metaDescription": "Track the NHL 27 release date, announcement, reveal trailer, beta access, pre-order details, editions, and price for PS5 and Xbox Series X|S.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the NHL 27 Release hub?",
+      "whatIsDescription": "The NHL 27 Release hub covers the launch window, announcement timeline, reveal schedule, beta access, pre-order details, and price across the PlayStation Store and Microsoft Store.",
+      "why": "Why follow the NHL 27 release schedule?",
       "whySteps": {
-        "step1Title": "Optimize Your Archetype",
-        "step1Description": "Match player class, size, and handedness to your playstyle",
-        "step2Title": "Spend Ability Points",
-        "step2Description": "Balance speed, shooting, defense, and physical abilities",
-        "step3Title": "Pair X-Factors",
-        "step3Description": "Combine tiered abilities for the strongest on-ice effect"
+        "step1Title": "Know the Launch Window",
+        "step1Description": "Track the confirmed fall 2026 launch window and regional unlock times",
+        "step2Title": "Catch the Reveal",
+        "step2Description": "Follow the announcement, reveal trailer, and cover campaign timeline",
+        "step3Title": "Plan Your Pre-Order",
+        "step3Description": "Compare editions, beta access, and early-entry options before launch"
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
+      "all": "All NHL 27 Release Articles"
     },
-    "items": {
-      "title": "NHL 27 HUT Cards",
-      "description": "Detailed NHL 27 Hockey Ultimate Team card guides covering ratings, chemistry, sets, packs, and market strategy.",
-      "metaTitle": "NHL 27 HUT Cards - Ratings, Chemistry & Sets Guide",
-      "metaDescription": "Complete NHL 27 HUT card database including player ratings, chemistry links, sets, pack probabilities, and Auction House strategy.",
-      "categoryLabel": "HUT CARDS",
-      "whatIs": "What are NHL 27 HUT Cards?",
-      "whatIsDescription": "Comprehensive guides for NHL 27 Hockey Ultimate Team cards, covering ratings, chemistry combinations, sets, pack probabilities, and Auction House usage.",
-      "why": "Why check HUT card guides?",
+    "platforms": {
+      "title": "NHL 27 Platforms",
+      "description": "Full breakdown of NHL 27 platform support across PS5, Xbox Series X|S, PS4, PC, Steam, Switch 2, and Game Pass, including crossplay.",
+      "metaTitle": "NHL 27 Platforms - PS5, Xbox, PC, Steam, Switch 2 & Game Pass",
+      "metaDescription": "Check NHL 27 platform support for PS5, Xbox Series X|S, PS4, PC, Steam, Switch 2, and Game Pass, plus crossplay and online play details.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are NHL 27 Platforms?",
+      "whatIsDescription": "NHL 27 Platforms covers every confirmed and rumored platform, including PS5, Xbox Series X|S, PS4, PC, Steam, Nintendo Switch 2, and Game Pass, along with crossplay and online multiplayer support.",
+      "why": "Why check NHL 27 platform support?",
       "whySteps": {
-        "step1Title": "Build Chemistry",
-        "step1Description": "Activate bonuses through item type, nationality, and team links",
-        "step2Title": "Manage the Salary Cap",
-        "step2Description": "Balance star power with depth across every line",
-        "step3Title": "Earn Rewards",
-        "step3Description": "Use objectives, sets, and events for predictable upgrades"
+        "step1Title": "Pick the Right Console",
+        "step1Description": "Compare PS5, Xbox Series X|S, and current-gen enhancements",
+        "step2Title": "Explore PC and Steam",
+        "step2Description": "See whether NHL 27 arrives on PC, Steam, and Game Pass",
+        "step3Title": "Understand Crossplay",
+        "step3Description": "Learn how cross-platform play connects PlayStation and Xbox"
       },
       "featured": "Featured & Essential",
-      "all": "All HUT Cards"
+      "all": "All NHL 27 Platform Guides"
     },
-    "biomes": {
-      "title": "NHL 27 Arenas",
-      "description": "Explore NHL 27 arenas, presentation details, home-ice atmosphere, and broadcast features for every team.",
-      "metaTitle": "NHL 27 Arenas - Home Ice & Presentation Guide",
-      "metaDescription": "Explore NHL 27 arenas, home-ice atmosphere, team presentations, and broadcast features across the league.",
-      "categoryLabel": "ARENAS",
-      "whatIs": "What are NHL 27 Arenas?",
-      "whatIsDescription": "Guides to NHL 27 arenas and presentation, covering home-ice atmosphere, team-specific broadcasts, replays, and data-driven overlays.",
-      "why": "Why explore NHL 27 arenas?",
+    "cover": {
+      "title": "NHL 27 Cover",
+      "description": "NHL 27 cover athlete reveals, Standard and Deluxe Edition covers, and the most requested cover star ideas from the community.",
+      "metaTitle": "NHL 27 Cover Athlete - Standard, Deluxe & Cover Ideas",
+      "metaDescription": "Follow the NHL 27 cover athlete reveal for the Standard and Deluxe Editions, plus the most requested cover star ideas and fan picks.",
+      "categoryLabel": "COVER",
+      "whatIs": "What is the NHL 27 Cover?",
+      "whatIsDescription": "The NHL 27 Cover hub tracks the official cover athlete reveal for the Standard and Deluxe Editions and rounds up the most requested cover star ideas from the hockey community.",
+      "why": "Why follow the NHL 27 cover reveal?",
       "whySteps": {
-        "step1Title": "Home-Ice Feel",
-        "step1Description": "Experience authentic arena atmosphere for every team",
-        "step2Title": "Presentation",
-        "step2Description": "See data-driven overlays, replays, and threat indicators",
-        "step3Title": "Broadcast Polish",
-        "step3Description": "Enjoy faceoff comparisons and replay breakdowns"
+        "step1Title": "Meet the Cover Athlete",
+        "step1Description": "See who lands the Standard and Deluxe Edition covers",
+        "step2Title": "Track the Reveal",
+        "step2Description": "Follow the cover campaign timeline alongside the reveal trailer",
+        "step3Title": "Join the Conversation",
+        "step3Description": "Explore the most requested cover star ideas and fan picks"
       },
       "featured": "Featured & Essential",
-      "all": "All Arenas"
+      "all": "All NHL 27 Cover Articles"
     },
-    "building": {
-      "title": "NHL 27 Team Building",
-      "description": "Master NHL 27 team building across Franchise Mode and HUT, from lines and chemistry to contracts and drafts.",
-      "metaTitle": "NHL 27 Team Building - Lines, Chemistry & Management",
-      "metaDescription": "Master NHL 27 team building with line combinations, chemistry, salary cap, contracts, drafts, and Franchise Mode management.",
-      "categoryLabel": "TEAM BUILDING",
-      "whatIs": "What is NHL 27 Team Building?",
-      "whatIsDescription": "Guides to NHL 27 team building, covering forward lines, defense pairs, chemistry, salary cap, contracts, waivers, and draft planning.",
-      "why": "Why build your NHL 27 team?",
+    "features": {
+      "title": "NHL 27 Features",
+      "description": "NHL 27 new features, new engine, crossplay, new leagues, college hockey, and Olympics integration explained in detail.",
+      "metaTitle": "NHL 27 Features - New Engine, Crossplay, Leagues & Olympics",
+      "metaDescription": "Explore NHL 27 new features including the new engine, crossplay, new leagues, college hockey, and Olympics modes for the 2026 season.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "What are NHL 27 Features?",
+      "whatIsDescription": "NHL 27 Features covers the new engine, gameplay upgrades, crossplay, new leagues, college hockey integration, and Olympics modes that define the 2026 hockey season.",
+      "why": "Why explore NHL 27 features?",
       "whySteps": {
-        "step1Title": "Balance Your Lines",
-        "step1Description": "Spread overall rating across forwards, defense, and goalie",
-        "step2Title": "Activate Chemistry",
-        "step2Description": "Use combinations to boost Ability Points and performance",
-        "step3Title": "Plan for the Season",
-        "step3Description": "Manage cap, contracts, depth, and injuries"
+        "step1Title": "See the New Engine",
+        "step1Description": "Understand the technology and gameplay upgrades behind NHL 27",
+        "step2Title": "Play Across Platforms",
+        "step2Description": "Learn how crossplay connects players on PlayStation and Xbox",
+        "step3Title": "Discover New Leagues",
+        "step3Description": "Explore new leagues, college hockey, and Olympics content"
       },
       "featured": "Featured & Essential",
-      "all": "All Team Building Guides"
+      "all": "All NHL 27 Feature Guides"
     },
-    "support": {
-      "title": "NHL 27 Support",
-      "description": "Technical support, platform details, performance tips, and troubleshooting for NHL 27 on PlayStation and Xbox.",
-      "metaTitle": "NHL 27 Support - Technical Help & Platform Guide",
-      "metaDescription": "Get technical support for NHL 27 including platform details, DualSense features, PS5 Pro enhancements, performance tips, and troubleshooting.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is NHL 27 Support?",
-      "whatIsDescription": "Technical guides covering NHL 27 platform features, DualSense vibration and trigger effects, PS5 Pro enhancements, HDR10, cloud saves, and troubleshooting.",
-      "why": "Why check NHL 27 support?",
+    "modes": {
+      "title": "NHL 27 Modes",
+      "description": "Complete NHL 27 game modes guide covering Franchise Mode, Connected Franchise, Be A Pro, Hockey Ultimate Team, and Free Agency.",
+      "metaTitle": "NHL 27 Game Modes - Franchise, Be A Pro, HUT & More",
+      "metaDescription": "Master every NHL 27 game mode including Franchise Mode, Connected Franchise, Be A Pro, Hockey Ultimate Team, and Free Agency mechanics.",
+      "categoryLabel": "GAME MODES",
+      "whatIs": "What are NHL 27 Modes?",
+      "whatIsDescription": "NHL 27 Modes breaks down Franchise Mode, Connected Franchise, Be A Pro, Hockey Ultimate Team, and Free Agency, covering how each mode plays and what to focus on first.",
+      "why": "Why learn NHL 27 game modes?",
       "whySteps": {
-        "step1Title": "Platform Features",
-        "step1Description": "Learn DualSense, PS5 Pro, HDR10, and cloud save support",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best on-ice experience",
-        "step3Title": "Resolve Issues",
-        "step3Description": "Troubleshoot crashes, updates, and account questions"
+        "step1Title": "Run a Franchise",
+        "step1Description": "Manage rosters, trades, drafts, contracts, and the salary cap",
+        "step2Title": "Build a Career",
+        "step2Description": "Grow a single player in Be A Pro from prospect to NHL star",
+        "step3Title": "Compete in HUT",
+        "step3Description": "Assemble lineups and climb Ranked, Wildcard, and HUT Champions"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All NHL 27 Mode Guides"
+    },
+    "roster": {
+      "title": "NHL 27 Roster",
+      "description": "NHL 27 player ratings, draft prospects, free agents, and full team roster reference for the 2026 hockey season.",
+      "metaTitle": "NHL 27 Roster - Player Ratings, Teams, Draft & Free Agents",
+      "metaDescription": "Browse the NHL 27 roster with player ratings, full team list, draft prospects, and free agents for the 2026 season across every position.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What is the NHL 27 Roster?",
+      "whatIsDescription": "The NHL 27 Roster hub covers player ratings by position, the full team list, top draft prospects, and notable free agents for the 2026 hockey season.",
+      "why": "Why use the NHL 27 roster?",
+      "whySteps": {
+        "step1Title": "Check Player Ratings",
+        "step1Description": "Compare top forwards, defensemen, and goalies by overall and attributes",
+        "step2Title": "Know the Teams",
+        "step2Description": "Browse the full NHL 27 team list and division alignment",
+        "step3Title": "Track New Talent",
+        "step3Description": "Follow draft prospects and free agent movement for the new season"
+      },
+      "featured": "Featured & Essential",
+      "all": "All NHL 27 Roster Guides"
+    },
+    "media": {
+      "title": "NHL 27 Media",
+      "description": "NHL 27 trailers, gameplay videos, soundtrack, reviews, news, community rumors, Reddit threads, and wishlist updates in one place.",
+      "metaTitle": "NHL 27 Media - Trailer, Gameplay, Soundtrack, Reviews & News",
+      "metaDescription": "Watch NHL 27 trailers and gameplay, read reviews and news, explore the soundtrack, and follow community rumors, Reddit, and wishlist updates.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is NHL 27 Media?",
+      "whatIsDescription": "NHL 27 Media collects every trailer and gameplay video, soundtrack details, review coverage, official news, community rumors, Reddit discussion, and wishlist updates.",
+      "why": "Why follow NHL 27 media?",
+      "whySteps": {
+        "step1Title": "Watch the Reveals",
+        "step1Description": "Catch every NHL 27 trailer, gameplay first look, and deep dive",
+        "step2Title": "Read Reviews",
+        "step2Description": "Follow review coverage and news as launch approaches",
+        "step3Title": "Join the Community",
+        "step3Description": "Track Reddit threads, rumors, soundtrack, and wishlist news"
+      },
+      "featured": "Featured & Essential",
+      "all": "All NHL 27 Media"
     }
   }
 }

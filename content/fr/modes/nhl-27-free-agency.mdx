@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Marché des joueurs autonomes NHL 27 : Guide de construction d'alignement et de plafond salarial",
+  description: "Maîtrisez le marché des joueurs autonomes de NHL 27 avec notre guide. Apprenez les tactiques de négociation de contrat, la gestion du plafond salarial et les stratégies d'optimisation d'alignement.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Free+Agency+Guide",
+  date: "2026-07-13",
+  author: "Équipe Wiki NHL 27"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Marché des joueurs autonomes NHL 27** : Phase cruciale pour signer des joueurs d'impact et combler la profondeur de l'alignement.
+- **Gestion du plafond salarial** : Essentiel pour équilibrer les vedettes avec des joueurs de soutien fiables.
+- **Mécaniques d'intérêt des joueurs** : La valeur du contrat, le prestige de l'équipe et le rôle proposé déterminent le succès de la signature.
+- **Optimisation de l'alignement** : Ciblez des archétypes spécifiques et la chimie d'équipe plutôt que les notes globales seules.
+- **Négociation stratégique** : Utilisez des durées de contrat structurées et des offres dégressives (front-loaded) pour sécuriser les talents d'élite.
+</Callout>
+
+<Section icon={Map} title="Comprendre les mécaniques du marché des joueurs autonomes de NHL 27">
+
+La saison morte dans le Mode Franchise s'articule principalement autour du **marché des joueurs autonomes de NHL 27**, une fenêtre critique où les vétérans d'élite, les spécialistes de profondeur et les étoiles montantes arrivent sur le marché. Naviguer avec succès dans cette période nécessite une compréhension approfondie des demandes des joueurs, de la valeur marchande et des systèmes financiers sous-jacents qui régissent les négociations de contrat.
+
+Lorsque la fenêtre du marché s'ouvre, les joueurs évaluent les offres en fonction d'une combinaison de compensation financière, de compétitivité de l'équipe et de leur rôle projeté au sein de votre alignement. Offrir simplement le salaire le plus élevé ne garantit pas une signature, car la personnalité des joueurs et leurs objectifs de carrière influencent leurs décisions finales.
+
+| Facteur de négociation | Impact sur la décision du joueur | Approche stratégique |
+| :--- | :--- | :--- |
+| **Offre salariale** | Impact élevé sur les joueurs motivés par l'argent | Égaler ou dépasser légèrement le prix demandé pour les cibles prioritaires |
+| **Durée du contrat** | Impact élevé sur les vétérans cherchant la sécurité | Offrir des termes plus courts avec une valeur annuelle plus élevée pour limiter les risques |
+| **Rôle dans l'équipe** | Critique pour les joueurs voulant du temps de jeu sur les premiers trios | Assurez-vous que votre hiérarchie correspond au temps de jeu promis |
+| **Prestige de l'équipe** | Très valorisé par les vétérans en quête d'un championnat | Ciblez les chasseurs de bagues si votre équipe est une prétendante sérieuse |
+
+<Callout type="tip" title="Conseil de Pro">
+Vérifiez toujours le moral et les traits de personnalité d'un joueur avant de proposer un contrat. Les joueurs qui accordent de l'importance à la chimie d'équipe et à la victoire sont plus susceptibles d'accepter des contrats avantageux pour l'équipe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégies de plafond salarial et planification financière">
+
+Gérer le plafond salarial est l'aspect le plus difficile de la construction d'un alignement champion. Accumuler des joueurs de plus de 90 de général mènera rapidement à la ruine financière, vous forçant à échanger des atouts précieux pour presque rien. Un bilan financier équilibré est la véritable clé du succès à long terme.
+
+Pour maintenir une structure salariale saine, vous devez diviser votre budget en paliers clairs. Vos vedettes de premier plan commanderont des salaires premium, ce qui signifie que vos attaquants de soutien et vos défenseurs de troisième paire doivent être composés d'atouts à coût contrôlé, de contrats d'entrée et de vétérans à prix réduit.
+
+<CardGrid cols={3}>
+  <Card title="Vedettes d'élite (Palier 1)">
+    - **Allocation du plafond** : 60-70 % du budget total
+    - **Joueurs cibles** : Centres de concession, gardiens d'élite, défenseurs de première paire
+    - **Stratégie de contrat** : Sécurité à long terme pour verrouiller les meilleures années
+  </Card>
+  <Card title="Profondeur de base (Palier 2)">
+    - **Allocation du plafond** : 20-25 % du budget total
+    - **Joueurs cibles** : Attaquants de deuxième trio, défenseurs défensifs robustes
+    - **Stratégie de contrat** : Termes modérés (2-4 ans) avec flexibilité d'échange
+  </Card>
+  <Card title="Compléments à bas prix (Palier 3)">
+    - **Allocation du plafond** : 10-15 % du budget total
+    - **Joueurs cibles** : Spécialistes défensifs, joueurs physiques, espoirs
+    - **Stratégie de contrat** : Contrats courts, à faible risque, au minimum de la ligue
+  </Card>
+</CardGrid>
+
+| Technique de gestion du plafond | Avantage principal | Risque potentiel |
+| :--- | :--- | :--- |
+| **Contrats de transition** | Impact salarial moindre pour les jeunes joueurs à court terme | Demandes salariales plus élevées à l'expiration du contrat |
+| **Contrats dégressifs (Front-Loaded)** | Impact salarial plus élevé au début quand vous avez de l'espace | Difficile à échanger durant les dernières années du contrat |
+| **Rachat de contrats** | Allègement immédiat du plafond en étalant l'argent mort | Pénalités salariales à long terme limitant la flexibilité future |
+
+<Callout type="warning" title="Avertissement">
+Évitez de signer des joueurs vieillissants pour des contrats de longue durée à forte valeur. Les attributs physiques comme la vitesse et l'accélération déclinent rapidement après 30 ans, vous laissant avec des contrats onéreux et impossibles à échanger.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de négociation étape par étape">
+
+Sécuriser vos joueurs cibles durant la frénésie du premier jour nécessite une approche systématique. Suivez ces étapes pour maximiser votre taux de réussite tout en préservant votre budget.
+
+<Steps>
+  <Step num="1" title="Évaluer les besoins de l'alignement">
+    Avant l'ouverture de la fenêtre de signature, examinez votre organigramme pour identifier les lacunes flagrantes. Déterminez si vous avez besoin d'un marqueur d'élite, d'un défenseur défensif ou d'un gardien partant fiable.
+  </Step>
+  <Step num="2" title="Libérer de l'espace salarial">
+    Échangez les joueurs sous-performants avec de lourds contrats. Ciblez des équipes disposant de beaucoup d'espace salarial pour absorber ces salaires, en vous concentrant sur l'acquisition de choix de repêchage ou d'espoirs en retour.
+  </Step>
+  <Step num="3" title="Identifier les cibles du marché">
+    Filtrez la liste des joueurs autonomes par position, âge et archétype. Créez une liste restreinte de joueurs qui correspondent à la chimie de votre équipe et à votre système tactique.
+  </Step>
+  <Step num="4" title="Soumettre des offres structurées">
+    Envoyez des offres de contrat personnalisées dès le premier jour. Pour les cibles hautement prioritaires, offrez un montant légèrement supérieur à leur demande pour contrer les offres des directeurs généraux rivaux.
+  </Step>
+  <Step num="5" title="Surveiller et ajuster">
+    Vérifiez quotidiennement les retours des joueurs. Si une cible reçoit une meilleure offre d'une autre équipe, décidez s'il faut augmenter votre mise ou passer à une option de secours avant que le marché ne se tarisse.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de réussite">
+Si un joueur hésite à signer, essayez d'ajouter un petit bonus à la signature ou d'ajuster la durée du contrat pour qu'elle corresponde exactement à sa préférence. Ce ajustement mineur peut souvent sceller l'accord sans augmenter l'impact annuel sur le plafond.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recrutement et ciblage de joueurs à forte valeur">
+
+Bien que la signature de vedettes fasse les gros titres, le véritable travail d'un directeur général champion se trouve dans les aubaines. Trouver des joueurs de grande valeur avec des contrats abordables vous permet d'allouer vos ressources financières importantes à votre noyau d'élite.
+
+Recherchez des archétypes de joueurs spécifiques qui performent exceptionnellement bien en simulation et en jeu, même si leur note globale est modeste. Les attaquants polyvalents, les défenseurs défensifs et les joueurs physiques commandent souvent des salaires plus bas tout en offrant une valeur immense en infériorité numérique et lors des confrontations défensives.
+
+| Archétype de joueur | Attributs clés à cibler | Rôle idéal dans l'alignement | Fourchette de salaire prévue |
+| :--- | :--- | :--- | :--- |
+| **Attaquant polyvalent** | Conscience défensive, Mises en jeu, Coup de bâton | Centre de 3e trio, Désavantage numérique | 1,5 M$ - 3,0 M$ |
+| **Défenseur défensif** | Blocs de tirs, Mises en échec, Conscience défensive | 3e paire défensive, Désavantage numérique | 1,0 M$ - 2,5 M$ |
+| **Franc-tireur (Vétéran)** | Précision du tir des poignets, Conscience offensive | 2e unité d'avantage numérique, Top 6/9 | 2,0 M$ - 4,0 M$ |
+
+<Callout type="info" title="Note">
+Les cibles du marché RFA (Joueurs autonomes avec compensation) nécessitent une compensation en choix de repêchage s'ils sont signés. Calculez toujours le coût en capital de repêchage avant de soumettre une offre hostile à un joueur restreint.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de l'alignement durant la saison morte">
+
+Utilisez cette liste de contrôle pour vous assurer que votre bureau de direction accomplit chaque tâche essentielle pendant la saison morte et la période des joueurs autonomes.
+
+<Checklist
+  id="offseason-checklist"
+  title="Objectifs du directeur général pour la saison morte :"
+  items={[
+    "Prolonger les joueurs autonomes clés avant qu'ils n'atteignent le marché libre",
+    "Soumettre une offre qualificative à tous les joueurs autonomes avec compensation (RFA) éligibles pour conserver leurs droits de négociation",
+    "Libérer au moins 5 M$ d'espace salarial d'urgence avant le premier jour du marché",
+    "Combler tous les postes vacants du personnel d'entraîneurs avec des spécialistes tactiques hautement qualifiés",
+    "Sécuriser au moins un attaquant de top 6 et un défenseur de top 4 sur le marché",
+    "Compléter l'alignement de la Ligue américaine (AHL) avec des vétérans pour soutenir le développement des espoirs"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment signer un joueur autonome qui a plusieurs offres dans NHL 27 ?",
+    answer: "Pour gagner une guerre d'enchères, vous devez répondre aux désirs spécifiques du joueur. S'il veut gagner, assurez-vous que votre équipe est une aspirante au titre. Les joueurs motivés par l'aspect financier nécessiteront une offre de 10 à 15 % supérieure à leur demande, ou une structure de contrat dégressive."
+  },
+  {
+    question: "Quelle est la différence entre un UFA et un RFA ?",
+    answer: "Les joueurs autonomes sans compensation (UFA) peuvent signer avec n'importe quelle équipe sans restriction. Les joueurs autonomes avec compensation (RFA) sont toujours liés à leur équipe d'origine. Si vous signez un RFA via une offre hostile, son équipe d'origine peut égaler l'offre ou le laisser partir en échange de choix de repêchage basés sur la valeur du contrat."
+  },
+  {
+    question: "Comment puis-je libérer rapidement de l'espace sous le plafond salarial avant le marché ?",
+    answer: "Le moyen le plus rapide est d'échanger des joueurs avec de gros contrats à des équipes en reconstruction disposant d'un immense espace salarial. Vous pouvez également racheter les contrats de joueurs sous-performants, bien que cela laisse de l'espace salarial mort sur vos livres pendant plusieurs saisons."
+  },
+  {
+    question: "La chimie des joueurs est-elle importante lors de la signature de joueurs autonomes ?",
+    answer: "Oui. Les joueurs ayant des cotes de chimie élevées qui correspondent au schéma tactique de votre entraîneur seront nettement plus performants en simulation. Signer un joueur légèrement moins bien noté qui s'intègre parfaitement à votre système est souvent préférable à la signature d'une vedette mal adaptée."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,358 @@
-{}
+{
+  "en": {
+    "cover": [
+      {
+        "slug": "nhl-27-cover-athlete",
+        "file": "nhl-27-cover-athlete"
+      },
+      {
+        "slug": "nhl-27-cover-ideas",
+        "file": "nhl-27-cover-ideas"
+      }
+    ],
+    "features": [
+      {
+        "slug": "nhl-27-college-hockey",
+        "file": "nhl-27-college-hockey"
+      },
+      {
+        "slug": "nhl-27-crossplay",
+        "file": "nhl-27-crossplay"
+      },
+      {
+        "slug": "nhl-27-new-engine",
+        "file": "nhl-27-new-engine"
+      },
+      {
+        "slug": "nhl-27-new-features",
+        "file": "nhl-27-new-features"
+      },
+      {
+        "slug": "nhl-27-new-leagues",
+        "file": "nhl-27-new-leagues"
+      },
+      {
+        "slug": "nhl-27-olympics",
+        "file": "nhl-27-olympics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "nhl-27-beginner-guide",
+        "file": "nhl-27-beginner-guide"
+      },
+      {
+        "slug": "nhl-27-controls",
+        "file": "nhl-27-controls"
+      }
+    ],
+    "media": [
+      {
+        "slug": "nhl-27-gameplay",
+        "file": "nhl-27-gameplay"
+      },
+      {
+        "slug": "nhl-27-news",
+        "file": "nhl-27-news"
+      },
+      {
+        "slug": "nhl-27-reddit",
+        "file": "nhl-27-reddit"
+      },
+      {
+        "slug": "nhl-27-review",
+        "file": "nhl-27-review"
+      },
+      {
+        "slug": "nhl-27-rumors",
+        "file": "nhl-27-rumors"
+      },
+      {
+        "slug": "nhl-27-soundtrack",
+        "file": "nhl-27-soundtrack"
+      },
+      {
+        "slug": "nhl-27-trailer",
+        "file": "nhl-27-trailer"
+      },
+      {
+        "slug": "nhl-27-wishlist",
+        "file": "nhl-27-wishlist"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "nhl-27-be-a-pro",
+        "file": "nhl-27-be-a-pro"
+      },
+      {
+        "slug": "nhl-27-connected-franchise",
+        "file": "nhl-27-connected-franchise"
+      },
+      {
+        "slug": "nhl-27-franchise-mode",
+        "file": "nhl-27-franchise-mode"
+      },
+      {
+        "slug": "nhl-27-free-agency",
+        "file": "nhl-27-free-agency"
+      },
+      {
+        "slug": "nhl-27-hut",
+        "file": "nhl-27-hut"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "nhl-27-game-pass",
+        "file": "nhl-27-game-pass"
+      },
+      {
+        "slug": "nhl-27-pc",
+        "file": "nhl-27-pc"
+      },
+      {
+        "slug": "nhl-27-ps4",
+        "file": "nhl-27-ps4"
+      },
+      {
+        "slug": "nhl-27-ps5",
+        "file": "nhl-27-ps5"
+      },
+      {
+        "slug": "nhl-27-steam",
+        "file": "nhl-27-steam"
+      },
+      {
+        "slug": "nhl-27-switch-2",
+        "file": "nhl-27-switch-2"
+      },
+      {
+        "slug": "nhl-27-xbox",
+        "file": "nhl-27-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "nhl-27-announcement",
+        "file": "nhl-27-announcement"
+      },
+      {
+        "slug": "nhl-27-beta",
+        "file": "nhl-27-beta"
+      },
+      {
+        "slug": "nhl-27-pre-order",
+        "file": "nhl-27-pre-order"
+      },
+      {
+        "slug": "nhl-27-price",
+        "file": "nhl-27-price"
+      },
+      {
+        "slug": "nhl-27-release-date",
+        "file": "nhl-27-release-date"
+      },
+      {
+        "slug": "nhl-27-reveal",
+        "file": "nhl-27-reveal"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "nhl-27-draft-prospects",
+        "file": "nhl-27-draft-prospects"
+      },
+      {
+        "slug": "nhl-27-free-agents",
+        "file": "nhl-27-free-agents"
+      },
+      {
+        "slug": "nhl-27-player-ratings",
+        "file": "nhl-27-player-ratings"
+      },
+      {
+        "slug": "nhl-27-teams",
+        "file": "nhl-27-teams"
+      }
+    ]
+  },
+  "fr": {
+    "cover": [
+      {
+        "slug": "nhl-27-cover-athlete",
+        "file": "nhl-27-cover-athlete"
+      },
+      {
+        "slug": "nhl-27-cover-ideas",
+        "file": "nhl-27-cover-ideas"
+      }
+    ],
+    "features": [
+      {
+        "slug": "nhl-27-college-hockey",
+        "file": "nhl-27-college-hockey"
+      },
+      {
+        "slug": "nhl-27-crossplay",
+        "file": "nhl-27-crossplay"
+      },
+      {
+        "slug": "nhl-27-new-engine",
+        "file": "nhl-27-new-engine"
+      },
+      {
+        "slug": "nhl-27-new-features",
+        "file": "nhl-27-new-features"
+      },
+      {
+        "slug": "nhl-27-new-leagues",
+        "file": "nhl-27-new-leagues"
+      },
+      {
+        "slug": "nhl-27-olympics",
+        "file": "nhl-27-olympics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "nhl-27-beginner-guide",
+        "file": "nhl-27-beginner-guide"
+      },
+      {
+        "slug": "nhl-27-controls",
+        "file": "nhl-27-controls"
+      }
+    ],
+    "media": [
+      {
+        "slug": "nhl-27-gameplay",
+        "file": "nhl-27-gameplay"
+      },
+      {
+        "slug": "nhl-27-news",
+        "file": "nhl-27-news"
+      },
+      {
+        "slug": "nhl-27-reddit",
+        "file": "nhl-27-reddit"
+      },
+      {
+        "slug": "nhl-27-review",
+        "file": "nhl-27-review"
+      },
+      {
+        "slug": "nhl-27-rumors",
+        "file": "nhl-27-rumors"
+      },
+      {
+        "slug": "nhl-27-soundtrack",
+        "file": "nhl-27-soundtrack"
+      },
+      {
+        "slug": "nhl-27-trailer",
+        "file": "nhl-27-trailer"
+      },
+      {
+        "slug": "nhl-27-wishlist",
+        "file": "nhl-27-wishlist"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "nhl-27-be-a-pro",
+        "file": "nhl-27-be-a-pro"
+      },
+      {
+        "slug": "nhl-27-connected-franchise",
+        "file": "nhl-27-connected-franchise"
+      },
+      {
+        "slug": "nhl-27-franchise-mode",
+        "file": "nhl-27-franchise-mode"
+      },
+      {
+        "slug": "nhl-27-free-agency",
+        "file": "nhl-27-free-agency"
+      },
+      {
+        "slug": "nhl-27-hut",
+        "file": "nhl-27-hut"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "nhl-27-game-pass",
+        "file": "nhl-27-game-pass"
+      },
+      {
+        "slug": "nhl-27-pc",
+        "file": "nhl-27-pc"
+      },
+      {
+        "slug": "nhl-27-ps4",
+        "file": "nhl-27-ps4"
+      },
+      {
+        "slug": "nhl-27-ps5",
+        "file": "nhl-27-ps5"
+      },
+      {
+        "slug": "nhl-27-steam",
+        "file": "nhl-27-steam"
+      },
+      {
+        "slug": "nhl-27-switch-2",
+        "file": "nhl-27-switch-2"
+      },
+      {
+        "slug": "nhl-27-xbox",
+        "file": "nhl-27-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "nhl-27-announcement",
+        "file": "nhl-27-announcement"
+      },
+      {
+        "slug": "nhl-27-beta",
+        "file": "nhl-27-beta"
+      },
+      {
+        "slug": "nhl-27-pre-order",
+        "file": "nhl-27-pre-order"
+      },
+      {
+        "slug": "nhl-27-price",
+        "file": "nhl-27-price"
+      },
+      {
+        "slug": "nhl-27-release-date",
+        "file": "nhl-27-release-date"
+      },
+      {
+        "slug": "nhl-27-reveal",
+        "file": "nhl-27-reveal"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "nhl-27-draft-prospects",
+        "file": "nhl-27-draft-prospects"
+      },
+      {
+        "slug": "nhl-27-free-agents",
+        "file": "nhl-27-free-agents"
+      },
+      {
+        "slug": "nhl-27-player-ratings",
+        "file": "nhl-27-player-ratings"
+      },
+      {
+        "slug": "nhl-27-teams",
+        "file": "nhl-27-teams"
+      }
+    ]
+  }
+}

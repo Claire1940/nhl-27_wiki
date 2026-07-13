@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "NHL 27 New Engine: Next-Gen Physics & Control Overhaul",
+  description: "Explore the massive technical leap in NHL 27 new engine, featuring reimagined skill stick controls, motion-matching physics, and advanced deking mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=NHL+27+New+Engine+Guide",
+  date: "2026-07-13",
+  author: "nhl 27 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **NHL 27 new engine** introduces a complete overhaul of the physics system for more realistic puck-ice interactions.
+- **Skill Stick Remapping** moves body fakes to L3 and puck flips to R3 for more intuitive handling.
+- **Motion Matching Technology** ensures smoother transitions between skating, shooting, and hitting.
+- **Advanced Deking** now includes air deflections, kick fakes, and multiple Michigan move variations.
+- **Enhanced Visuals** leverage next-gen lighting to provide a broadcast-quality hockey experience.
+</Callout>
+
+<Section icon={Sparkles} title="NHL 27 New Engine Technical Overview">
+
+The transition to the **nhl 27 new engine** represents the most significant technical advancement in the franchise's history. By moving toward a more robust physics-based architecture, the game eliminates the "canned" animations that often plagued previous iterations. This update focuses on three core pillars: realistic puck friction, player weight distribution, and a revamped collision system that accounts for limb-specific impact.
+
+**Video Highlights:**
+- **Control Remapping**: Shifting the skill stick logic to separate body movement from stick handling.
+- **Dynamic Deking**: Introduction of the kick-fake and mid-air puck hitting mechanics.
+- **Michigan Variations**: New ways to perform the iconic move, including spin-and-lift variants.
+- **Goalie Interaction**: Enhanced logic for kicking the puck past goalies during close-range encounters.
+
+<YouTubeEmbed videoId="LO3RwEH8gCU" title="NHL 27 Fan Made Deking Trick Shot Tutorial" />
+
+The **nhl 27 new engine** utilizes a proprietary motion-matching system. Unlike traditional animation blending, motion matching searches a massive library of real-world hockey movements in real-time to find the most natural transition for every frame. This results in defenders who can pivot more realistically and forwards who can maintain their momentum while protecting the puck.
+
+| Feature | Legacy Engine | NHL 27 New Engine |
+| :--- | :--- | :--- |
+| **Physics Model** | Predetermined animations | Real-time motion matching |
+| **Puck Logic** | Magnetized to sticks | Independent physics object |
+| **Collision** | Full-body ragdoll | Limb-specific impact logic |
+| **Ice Surface** | Static texture | Dynamic degradation & spray |
+| **Lighting** | Global illumination | Ray-traced reflections |
+
+<Callout type="tip" title="Pro Tip">
+The new engine's focus on momentum means that "speed bursting" is less effective than in previous years. Focus on maintaining a proper skating lane to utilize your player's weight in puck battles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reimagined Skill Stick & Controls">
+
+With the **nhl 27 new engine**, the control scheme has been refined to offer deeper granularity. The most notable change is the separation of player body movement and stick handling. By remapping specific fakes to the left stick and dedicated puck actions to the right stick buttons, players can execute complex maneuvers with significantly less input lag.
+
+| Input Command | Action in NHL 27 | Tactical Advantage |
+| :--- | :--- | :--- |
+| **L3 (Press)** | Leg Fake / Body Shiver | Freeze defenders without losing speed |
+| **R1 + RS Down/Up** | Between-the-legs Shot | High-speed scoring in tight windows |
+| **L1 + LS Down** | Kick off Skate | Bypass poke checks in the neutral zone |
+| **L1 + R3 (Tap)** | Puck Flip | Clear the zone or setup air deflections |
+| **L1 + R3 (Hold)** | Michigan Setup | Initiate high-skill puck pickup |
+
+<CardGrid cols={2}>
+  <Card title="Body Logic (Left Stick)">
+    - Handles player weight shifting.
+    - Controls the direction of leg fakes.
+    - Used to angle the body for puck protection.
+  </Card>
+  <Card title="Stick Logic (Right Stick)">
+    - Dedicated strictly to puck manipulation.
+    - Controls shot power and accuracy.
+    - Manages the height of puck flips and saucer passes.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important">
+The remapping of R3 and L3 may take several games to master. Practice in the Free Skate mode to build muscle memory before jumping into competitive HUT or World of Chel matches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Scoring: Air Deflections & Trick Shots">
+
+The **nhl 27 new engine** introduces a verticality to the game that was previously missing. Players can now hit the puck out of the air with precision, allowing for spectacular "trick shot" goals. This is particularly effective when the goalie is screened or when trying to redirect a high flip pass.
+
+<Steps>
+  <Step num="1" title="Initiate the Puck Flip">
+    While holding L1/LB, push the skill stick (RS) down and press R3. Release the skill stick to launch the puck into the air.
+  </Step>
+  <Step num="2" title="Track the Falling Puck">
+    Keep your eyes on the shadow of the puck. The **nhl 27 new engine** provides a subtle visual cue when the puck is within hitting range.
+  </Step>
+  <Step num="3" title="Execute the Mid-Air Hit">
+    Tap the skill stick (RS) in the direction of the net or a teammate. You can use the left stick (LS) to aim the specific corner of the goal.
+  </Step>
+  <Step num="4" title="Follow Through">
+    Maintain your skating direction to avoid a goalie interference penalty if the momentum carries you into the crease.
+  </Step>
+</Steps>
+
+Beyond air deflections, the "Michigan" move has been expanded. You can now perform a spin-o-rama variant by holding L2/LT during the rotation. This adds a layer of unpredictability that makes it much harder for defenders to time their hits.
+
+| Move Type | Input Difficulty | Success Rate |
+| :--- | :--- | :--- |
+| **Standard Michigan** | High | Moderate |
+| **Spinning Michigan** | Very High | Low |
+| **Kick-to-Shot** | Moderate | High |
+| **Air Deflection** | High | Moderate |
+| **Between-legs Flip** | Moderate | High |
+
+<Callout type="success" title="Success Tip">
+The kick-to-shot move (L1 + LS Down then RS Up) is currently the most effective way to beat goalies in 1-on-1 breakaway situations in the current build.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Mechanics & Physics Improvements">
+
+Defense in the **nhl 27 new engine** is no longer just about spamming the poke check. The new "Defensive Stance" system allows players to use their reach more effectively. Stick-on-puck physics are now calculated based on the velocity of the stick and the angle of the puck's rotation, making defensive play feel more rewarding and less random.
+
+<Checklist
+  id="defensive-goals"
+  title="Defensive Mastery Checklist:"
+  items={[
+    "Master the new L3 body positioning to seal off the boards",
+    "Practice timing the R3 puck-flip to clear the zone under pressure",
+    "Utilize the improved stick-lift mechanics to disrupt shooters",
+    "Learn to use the kick-fake defensively to move the puck out of the crease"
+  ]}
+/>
+
+The engine also improves goalie AI. Goalies now track the puck with their eyes and head independently of their body movement. If a puck is flipped into the air, the goalie will realistically look up, which can momentarily leave the lower half of the net vulnerable—a key strategy for offensive players using the new trick shots.
+
+| Defensive Tool | Best Used For | Risk Level |
+| :--- | :--- | :--- |
+| **Active Stick** | Neutral zone denial | Low |
+| **Body Shiver (L3)** | Board battles | Moderate |
+| **Stick Lift** | Net front battles | High (Penalty risk) |
+| **Diving Block** | Cross-crease passes | Very High |
+
+<Callout type="info" title="Engine Fact">
+The **nhl 27 new engine** calculates over 500 points of contact on the player's gear, ensuring that pucks deflecting off shin pads or shoulder caps behave with 100% physical accuracy.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="System Requirements & Optimization">
+
+To handle the complexity of the **nhl 27 new engine**, the game requires modern hardware. The motion-matching system and ray-traced lighting are CPU and GPU intensive. For PC players, an SSD is mandatory to handle the real-time asset streaming required for the seamless transition between gameplay and broadcast cutscenes.
+
+| Component | Minimum Requirements | Recommended (4K/60) |
+| :--- | :--- | :--- |
+| **CPU** | Intel i5-12400 / Ryzen 5 5600 | Intel i7-14700K / Ryzen 9 7900X |
+| **GPU** | RTX 3060 / RX 6600 XT | RTX 4080 / RX 7900 XTX |
+| **RAM** | 16 GB DDR4 | 32 GB DDR5 |
+| **Storage** | 100 GB NVMe SSD | 100 GB Gen4 NVMe SSD |
+
+<Callout type="warning" title="Warning">
+Players on previous-gen consoles (PS4/Xbox One) will not have access to the full **nhl 27 new engine** features, as the motion-matching system is exclusive to PS5, Xbox Series X|S, and PC.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="NHL 27 FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the biggest change in the NHL 27 new engine?",
+    answer: "The biggest change is the implementation of motion-matching technology, which replaces static animations with dynamic, physics-based movements for players and the puck."
+  },
+  {
+    question: "Can I still use the old Skill Stick controls?",
+    answer: "While a 'Legacy' control scheme is available, it does not support the new advanced deking and air deflection mechanics introduced in the new engine."
+  },
+  {
+    question: "How do I perform the new air deflection goal?",
+    answer: "You must first flip the puck into the air using L1 + R3, then time a right-stick flick toward the net while the puck is at waist height."
+  },
+  {
+    question: "Is the new engine available on all platforms?",
+    answer: "No, the full features of the NHL 27 new engine, including motion matching and ray tracing, are only available on PlayStation 5, Xbox Series X|S, and PC."
+  }
+]} />
+
+</Section>
