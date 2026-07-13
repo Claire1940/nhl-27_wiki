@@ -28,6 +28,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // NHL 27 主题图标（首页 Tools Grid 8 卡）
+  CalendarClock: LucideIcons.CalendarClock,
+  Clapperboard: LucideIcons.Clapperboard,
+  ShoppingCart: LucideIcons.ShoppingCart,
+  Activity: LucideIcons.Activity,
+  GraduationCap: LucideIcons.GraduationCap,
+  Trophy: LucideIcons.Trophy,
+  Coins: LucideIcons.Coins,
+  Network: LucideIcons.Network,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
