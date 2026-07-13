@@ -1,12 +1,757 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki NHL 27 - Date de sortie, bande-annonce, plateformes et modes",
+      "description": "Suivez l'actualité de la sortie de NHL 27, la bande-annonce de présentation, les plateformes PS5 et Xbox Series X|S confirmées, le gameplay, les modes, les notes, les éditions et les mises à jour officielles.",
+      "keywords": "NHL 27, EA Sports, PS5, Xbox Series X|S, date de sortie, bande-annonce, gameplay, HUT, Franchise, Be a Pro",
+      "ogTitle": "Wiki NHL 27 - Date de sortie, bande-annonce, plateformes et modes",
+      "ogDescription": "Suivez l'actualité de la sortie de NHL 27, la bande-annonce de présentation, les plateformes PS5 et Xbox Series X|S confirmées, le gameplay, les modes, les notes, les éditions et les mises à jour officielles.",
+      "twitterTitle": "Wiki NHL 27 - Date de sortie, bande-annonce, plateformes et modes",
+      "twitterDescription": "Suivez l'actualité de la sortie de NHL 27, la bande-annonce de présentation, les plateformes PS5 et Xbox Series X|S confirmées, le gameplay, les modes, les notes et les mises à jour officielles."
+    }
+  },
   "nav": {
     "guide": "Guide",
     "release": "Sortie",
     "platforms": "Plateformes",
     "cover": "Couverture",
-    "features": "Caractéristiques",
+    "features": "Fonctionnalités",
     "modes": "Modes",
     "roster": "Effectif",
     "media": "Médias"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Visiter le site officiel",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir prochainement"
+  },
+  "hero": {
+    "badge": "Simulation de hockey sur glace Next-Gen",
+    "title": "Wiki NHL 27",
+    "description": "Suivez EA SPORTS NHL 27 à l'approche du lancement de la prochaine simulation de hockey sur glace, incluant les actualités de présentation, les plateformes, les éditions, les modes, les notes et le jeu en ligne.",
+    "getFreeCodesCTA": "Voir les dernières actualités",
+    "playOnRobloxCTA": "Ajouter NHL 27 à la liste de souhaits",
+    "stats": {
+      "stat1": {
+        "value": "Automne 2026",
+        "label": "Fenêtre de lancement"
+      },
+      "stat2": {
+        "value": "16 juillet 2026",
+        "label": "Bande-annonce de présentation"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "Plateformes confirmées"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "Joueurs en ligne"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de NHL 27",
+    "description": "Découvrez le hockey sur glace de nouvelle génération avec EA SPORTS NHL 27 sur PlayStation 5 et Xbox Series X|S, avec un patinage, des tirs et un jeu de gardien affinés, ainsi qu'une large sélection de modes de jeu."
+  },
+  "tools": {
+    "title": "NHL 27",
+    "titleHighlight": "Guide",
+    "subtitle": "Tout ce que vous devez savoir pour suivre EA SPORTS NHL 27, de la sortie et des éditions au gameplay, aux notes et aux modes de jeu",
+    "cards": [
+      {
+        "icon": "CalendarClock",
+        "title": "Date de sortie de NHL 27",
+        "description": "Fenêtre de lancement, plateformes et détails de la boutique"
+      },
+      {
+        "icon": "Clapperboard",
+        "title": "Bande-annonce de NHL 27",
+        "description": "Bande-annonce de présentation, cover athlete et calendrier"
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Éditions de NHL 27",
+        "description": "Précommande, Deluxe et options d'accès anticipé"
+      },
+      {
+        "icon": "Activity",
+        "title": "Gameplay de NHL 27",
+        "description": "Patinage, tirs, gardiens de but et X-Factors"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guide du débutant NHL 27",
+        "description": "Controls, parcours d'entraînement et premiers pas"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Notes des joueurs de NHL 27",
+        "description": "Meilleurs attaquants, défenseurs et gardiens"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guide HUT de NHL 27",
+        "description": "Construction d'équipe Hockey Ultimate Team et économie"
+      },
+      {
+        "icon": "Network",
+        "title": "Modes de jeu de NHL 27",
+        "description": "Be A Pro, Franchise mode et World of Chel"
+      }
+    ]
+  },
+  "modules": {
+    "nhlReleaseDatePlatforms": {
+      "title": "Date de sortie et plateformes de NHL 27",
+      "intro": "NHL 27 peut être ajouté à votre liste de souhaits via EA, PlayStation et Xbox. Les fiches actuelles des boutiques identifient EA Vancouver comme développeur et confirment les versions PlayStation et Xbox de génération actuelle pour un lancement à l'automne 2026.",
+      "items": [
+        {
+          "label": "Fenêtre de sortie",
+          "value": "Automne 2026",
+          "description": "EA et les boutiques de consoles confirment que NHL 27 sortira cet automne."
+        },
+        {
+          "label": "Date de sortie exacte",
+          "value": "À annoncer",
+          "description": "La date de sortie précise sera confirmée lors d'une mise à jour officielle ultérieure."
+        },
+        {
+          "label": "Heure de lancement",
+          "value": "À annoncer",
+          "description": "Les heures de déverrouillage régional seront publiées à l'approche du lancement."
+        },
+        {
+          "label": "PlayStation",
+          "value": "PlayStation 5",
+          "description": "La version PS5 prend en charge la Lecture à distance, les vibrations et effets de gâchette DualSense, ainsi que les améliorations PS5 Pro."
+        },
+        {
+          "label": "Xbox",
+          "value": "Xbox Series X|S",
+          "description": "La version Xbox est optimisée pour les Series X|S et prend en charge la HDR10, les succès et les sauvegardes dans le cloud."
+        },
+        {
+          "label": "Autres plateformes",
+          "value": "Non répertorié",
+          "description": "Les pages de NHL 27 sur les boutiques concernent actuellement la PlayStation 5 et la Xbox Series X|S."
+        },
+        {
+          "label": "Développeur",
+          "value": "EA Vancouver",
+          "description": "Le Xbox Store identifie EA Vancouver comme le développeur de NHL 27."
+        },
+        {
+          "label": "Éditeur",
+          "value": "Electronic Arts",
+          "description": "Electronic Arts publie NHL 27 sur les deux plateformes de console."
+        }
+      ],
+      "quickTips": [
+        "NHL 27 peut dès maintenant être ajouté à votre liste d'envies sur le PlayStation Store et le Microsoft Store.",
+        "EA Vancouver est le développeur confirmé de NHL 27.",
+        "La date de sortie exacte et l'heure de lancement seront confirmées à l'approche du lancement.",
+        "Les versions de génération actuelle pour PlayStation 5 et Xbox Series X|S sont confirmées."
+      ]
+    },
+    "nhlTrailerCoverAthlete": {
+      "title": "Bande-annonce et cover athlete de NHL 27",
+      "intro": "EA a ouvert les pages de liste d'envies pour NHL 27 et a publié le logo officiel du jeu avant la présentation complète. Les prochaines bandes-annonces seront diffusées sur les chaînes officielles d'EA SPORTS NHL.",
+      "entries": [
+        {
+          "date": "Juillet 2026",
+          "type": "Annonce",
+          "title": "Ouverture des pages de liste d'envies de NHL 27",
+          "description": "EA, PlayStation et Xbox ont ouvert les pages officielles de NHL 27, présentant le logo du jeu, la période de sortie à l'automne et les consoles compatibles."
+        },
+        {
+          "date": "16 juillet 2026",
+          "type": "Bande-annonce de révélation",
+          "title": "Révélation officielle de NHL 27",
+          "description": "EA diffuse la première bande-annonce officielle de révélation de NHL 27 sur les chaînes EA SPORTS NHL."
+        },
+        {
+          "date": "À annoncer",
+          "type": "Révélation de la jaquette",
+          "title": "cover athlete de NHL 27",
+          "description": "Les cover athletes des éditions Standard et Deluxe seront annoncés dans le cadre de la campagne de révélation."
+        },
+        {
+          "date": "À annoncer",
+          "type": "Vidéo de gameplay",
+          "title": "Premier aperçu du gameplay",
+          "description": "Une bande-annonce dédiée au gameplay de NHL 27 et une vidéo de premier aperçu suivront la révélation."
+        },
+        {
+          "date": "À annoncer",
+          "type": "Présentations détaillées",
+          "title": "Présentations approfondies des modes et du gameplay",
+          "description": "Des vidéos détaillées couvriront les systèmes de gameplay, Hockey Ultimate Team, World of Chel, le mode Franchise et Be A Pro."
+        }
+      ]
+    },
+    "nhlPreOrderEditions": {
+      "title": "Éditions de précommande et accès anticipé de NHL 27",
+      "intro": "NHL 27 peut actuellement être ajouté aux listes de souhaits sur console. Les prix des éditions, les récompenses de précommande et les dates d'accès anticipé seront publiés après la présentation complète.",
+      "options": [
+        {
+          "option": "Liste de souhaits console",
+          "availability": "Disponible dès maintenant",
+          "price": "Gratuit",
+          "earlyAccess": "Non inclus",
+          "bonuses": "Notification de la boutique lorsque NHL 27 sera disponible.",
+          "platforms": "PlayStation 5 et Xbox Series X|S"
+        },
+        {
+          "option": "Édition Standard",
+          "availability": "À annoncer",
+          "price": "À annoncer",
+          "earlyAccess": "À annoncer",
+          "bonuses": "À annoncer",
+          "platforms": "PlayStation 5 et Xbox Series X|S"
+        },
+        {
+          "option": "Édition Deluxe",
+          "availability": "À annoncer",
+          "price": "À annoncer",
+          "earlyAccess": "À annoncer",
+          "bonuses": "À annoncer",
+          "platforms": "PlayStation 5 et Xbox Series X|S"
+        },
+        {
+          "option": "Essai EA Play",
+          "availability": "À annoncer pour NHL 27",
+          "price": "Abonnement EA Play",
+          "earlyAccess": "Détails de l'essai NHL 27 à annoncer",
+          "bonuses": "EA Play inclut des essais pour une sélection de nouveaux jeux et une remise de 10 % sur les achats numériques EA éligibles.",
+          "platforms": "Les avantages de l'abonnement dépendent de la plateforme"
+        },
+        {
+          "option": "Récompenses de fidélité",
+          "availability": "À annoncer",
+          "price": "Non applicable",
+          "earlyAccess": "Non applicable",
+          "bonuses": "Les récompenses pour les joueurs récurrents et les possesseurs de NHL 26 seront détaillées lors de la présentation.",
+          "platforms": "À annoncer"
+        }
+      ]
+    },
+    "nhlGameplayFeatures": {
+      "title": "Fonctionnalités et changements du gameplay de NHL 27",
+      "intro": "EA commencera à dévoiler le gameplay de NHL 27 avec la bande-annonce officielle le 16 juillet. NHL 26 sert de référence actuelle pour le patinage, l'IA, les gardiens de but et les comparaisons X-Factor, et la présentation de NHL 27 montrera quels systèmes reviennent et comment le gameplay a évolué.",
+      "features": [
+        {
+          "category": "Patinage et mouvements des joueurs",
+          "nhl27": "Les détails sur le patinage dans NHL 27 débuteront lors de la présentation du 16 juillet.",
+          "nhl26Baseline": "ICE-Q 2.0 utilise les données NHL EDGE pour l'accélération du patinage, la vitesse de pointe, les schémas de mouvement et les attributs spécifiques aux joueurs."
+        },
+        {
+          "category": "Tirs",
+          "nhl27": "Les changements concernant les tirs dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "L'emplacement des tirs, la vélocité et le comportement de décoche s'appuient sur les données NHL EDGE, tandis que les attributs des joueurs créent des styles de tir différents."
+        },
+        {
+          "category": "Passes et habiletés avec la rondelle",
+          "nhl27": "Les changements concernant les passes et le contrôle de la rondelle dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "Le système X-Factor repensé comprend des effets par paliers qui peuvent améliorer la précision des passes, la protection de la rondelle et les résultats de deking."
+        },
+        {
+          "category": "Mises en échec et jeu physique",
+          "nhl27": "Les changements concernant les mises en échec dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "Les attributs et les tendances des joueurs affectent le jeu physique, notamment la force des mises en échec corporelles, l'espacement défensif et le timing des mises en échec en zone libre."
+        },
+        {
+          "category": "Gardiens de but",
+          "nhl27": "Les changements concernant les gardiens de but dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "Le système Goalie Crease Control a ajouté plus de 80 animations d'arrêts, une logique de positionnement améliorée, des blocages de rondelle plus rapides et des réactions sur les arrêts consécutifs."
+        },
+        {
+          "category": "IA et tendances des joueurs",
+          "nhl27": "Les changements tactiques et de l'IA dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "ICE-Q 2.0 comprend 22 tendances de joueurs affectant les entrées de zone, les habitudes de tir, le temps de réaction, le positionnement et les décisions défensives."
+        },
+        {
+          "category": "X-Factors",
+          "nhl27": "La liste des aptitudes de NHL 27 sera dévoilée lors des présentations détaillées du gameplay.",
+          "nhl26Baseline": "NHL 26 a été lancé avec 28 aptitudes X-Factor réparties en cinq catégories, avec trois niveaux d'efficacité et des indicateurs d'activation visibles."
+        },
+        {
+          "category": "Présentation et ralentis",
+          "nhl27": "Les changements de présentation dans NHL 27 seront détaillés lors du dévoilement.",
+          "nhl26Baseline": "NHL 26 a ajouté des incrustations basées sur les données, des indicateurs de menace, des comparaisons de mises au jeu et des ralentis montrant la vitesse de patinage, l'angle de tir et la trajectoire de la rondelle."
+        }
+      ]
+    },
+    "nhlBeginnerGuideControls": {
+      "title": "Guide du débutant et controls de NHL 27",
+      "intro": "Commencez en difficulté Rookie avec l'On-Ice Trainer activé. Les controls hybrides facilitent les premiers matchs car les passes, les tirs du poignet, les lancers frappés, les mises en échec et les soulèvements de bâton utilisent des boutons d'action familiers, tandis que le stick droit reste disponible pour le maniement de la rondelle et les dekes.",
+      "steps": [
+        {
+          "title": "Configurer une partie adaptée aux débutants",
+          "description": "Ouvrez les Paramètres, sélectionnez les Paramètres rapides, et choisissez « I Am New To Sports Gaming ». Réglez la difficulté sur Rookie, utilisez la caméra Surélevée ou Zone, et réglez l'On-Ice Trainer sur Light ou Full pour obtenir plus de temps de réaction et garder visibles les invites de passe, de tir et de positionnement."
+        },
+        {
+          "title": "Apprendre le patinage et le contrôle de la rondelle",
+          "description": "En Patinage libre, faites un tour complet sans utiliser constamment le Hustle, puis répétez l'opération tout en protégeant la rondelle avec des virages et de courts mouvements du stick droit. Sur PlayStation et Xbox, le stick gauche gère le patinage et le Hustle, la gâchette gauche gère le contrôle de la vision, le bumper gauche est le modificateur de deke, et le stick droit gère les mouvements de Skill Stick et les dekes."
+        },
+        {
+          "title": "Pratiquer les passes et les tirs",
+          "description": "Effectuez dix passes normales, cinq passes soulevées, dix tirs du poignet et cinq lancers frappés, en visant la zone libre et en tirant après avoir déplacé le gardien. Les boutons d'action gèrent la passe et la passe soulevée, les touches supérieures gèrent les commandes de tir du poignet et de lancer frappé, et le stick droit gère les tirs au Skill Stick sur PlayStation et Xbox."
+        },
+        {
+          "title": "Défendre sans écoper de pénalités",
+          "description": "Restez entre le porteur de la rondelle et votre filet, changez de défenseur tôt, et n'utilisez les poke checks ou les soulèvements de bâton que lorsque la rondelle est à portée. Les touches supérieures gèrent le changement de joueur, le poke check, le blocage de tir, le soulèvement de bâton et la mise en échec corporelle sur PlayStation et Xbox."
+        },
+        {
+          "title": "Gagner les mises au jeu de base",
+          "description": "Observez la position du bâton de l'adversaire avant le dépôt de la rondelle, choisissez une approche en coup droit, en revers ou en blocage (tie-up) avec le stick droit, et effectuez le geste au moment où l'arbitre lâche la rondelle. Améliorez d'abord votre timing, car la lecture de l'adversaire devient plus importante une fois que le mouvement de base est maîtrisé."
+        },
+        {
+          "title": "Suivre le programme d'entraînement de la première heure",
+          "description": "Consacrez 45 à 60 minutes à un programme structuré : le Patinage libre pour le patinage, les passes, les tirs du poignet et les dekes ; un match hors ligne Play Now en Rookie avec changements de ligne automatiques ; un match axé sur la défense et les mises au jeu ; et un match hors ligne de HUT Cup Chase à faible difficulté une fois que vous êtes à l'aise avec les controls. Ne passez au niveau supérieur de Rookie que lorsque vous parvenez à effectuer des passes courtes, à créer des entrées de zone contrôlées et à défendre sans écoper de pénalités répétées pour trébucher ou bâton élevé."
+        }
+      ],
+      "quickTips": [
+        "Commencez en difficulté Rookie avec l'On-Ice Trainer activé.",
+        "Les controls hybrides utilisent les boutons d'action pour les passes et les tirs.",
+        "Le Skill Stick permet un maniement de la rondelle et des dekes plus poussés.",
+        "Pratiquez le timing des mises au jeu avant de passer à une difficulté supérieure."
+      ]
+    },
+    "nhlPlayerRatings": {
+      "title": "Notes des joueurs et meilleurs joueurs de NHL 27",
+      "intro": "Les notes utilisent l'ensemble officiel d'EA SPORTS NHL 26 comme base de référence actuelle de la série pour le suivi des rosters de NHL 27. La vitesse définit l'allure maximale d'un patineur, le Deking contrôle la rapidité avec laquelle les mouvements sont exécutés à pleine vitesse, la passe affecte la précision et la puissance des passes, et la précision du tir du poignet contrôle le placement des tirs du poignet.",
+      "groups": [
+        {
+          "name": "---",
+          "players": [
+            {
+              "name": "Attaquants",
+              "position": "Connor McDavid",
+              "team": "C",
+              "overall": "Edmonton Oilers",
+              "style": "97",
+              "strength": "Fabricant de jeu"
+            },
+            {
+              "name": "Vitesse de pointe d'élite, jeu de transition, contrôle de la rondelle et passes.",
+              "position": "Leon Draisaitl",
+              "team": "C",
+              "overall": "Edmonton Oilers",
+              "style": "96",
+              "strength": "Tireur d'élite"
+            },
+            {
+              "name": "Finition de haut niveau, protection de la rondelle et fabrication de jeu.",
+              "position": "Nathan MacKinnon",
+              "team": "C",
+              "overall": "Colorado Avalanche",
+              "style": "96",
+              "strength": "Fabricant de jeu"
+            }
+          ]
+        },
+        {
+          "name": "Accélération explosive et offensive puissante en montée.",
+          "players": [
+            {
+              "name": "Défenseurs",
+              "position": "Cale Makar",
+              "team": "DD",
+              "overall": "Colorado Avalanche",
+              "style": "95",
+              "strength": "Défenseur offensif"
+            },
+            {
+              "name": "Patinage d'élite, circulation de la rondelle et conscience bidirectionnelle.",
+              "position": "Quinn Hughes",
+              "team": "DG",
+              "overall": "Vancouver Canucks",
+              "style": "95",
+              "strength": "Défenseur offensif"
+            }
+          ]
+        },
+        {
+          "name": "Mobilité dynamique et passes de sortie de zone d'élite.",
+          "players": [
+            {
+              "name": "Gardiens de but",
+              "position": "Connor Hellebuyck",
+              "team": "G",
+              "overall": "Winnipeg Jets",
+              "style": "94",
+              "strength": "Hybride"
+            }
+          ]
+        }
+      ]
+    },
+    "nhlHutGuide": {
+      "title": "Vision de premier plan, arrêts de la mitaine, positionnement et durabilité.",
+      "intro": "Commencez par renforcer la position la plus faible de votre alignement de départ au lieu de chercher à obtenir une seule vedette coûteuse. NHL 27 Hockey Ultimate Team récompense la construction d'un roster équilibré grâce aux combinaisons de joueurs, aux points d'aptitude, aux décisions relatives au plafond salarial, aux objectifs, aux événements et à plusieurs parcours hors ligne et en ligne.",
+      "cards": [
+        {
+          "title": "Équipe de départ et capitaine",
+          "category": "Construction",
+          "summary": "HUT commence avec un alignement de départ composé de patineurs et d'un gardien de but, suivi du choix d'un capitaine parmi des joueurs vedettes actuels, des anciens joueurs et des futurs visages de la franchise.",
+          "actions": [
+            "Remplissez les objectifs d'ouverture et utilisez le roster de départ immédiatement.",
+            "Choisissez un capitaine qui occupe un poste important ou qui correspond à l'identité d'alignement que vous préférez.",
+            "Remplacez progressivement les joueurs de départ à faible note globale par des récompenses obtenues lors des matchs et des objectifs."
+          ]
+        },
+        {
+          "title": "Pièces, packs et hôtel des ventes",
+          "category": "Économie",
+          "summary": "Les matchs, les objectifs, les défis, les missions et les événements permettent de gagner des pièces HUT, des packs, des éléments et des récompenses de joueur. L'hôtel des ventes vous permet de cibler un joueur, un poste, un profil d'attributs ou une combinaison spécifique.",
+          "actions": [
+            "Dépensez vos pièces pour répondre aux besoins précis de votre roster, comme un gardien de but, un centre de premier trio ou une paire de défenseurs de premier plan.",
+            "Comparez les offres avant d'acheter et vendez les éléments inutilisés pour récupérer des pièces.",
+            "Consultez l'écran Afficher les probabilités des packs avant d'ouvrir ou d'acheter un pack."
+          ]
+        },
+        {
+          "title": "Combinaisons de joueurs et plafond salarial",
+          "category": "Construction d'équipe",
+          "summary": "Les combinaisons activent des bonus grâce à des liens tels que le type d'élément, la nationalité ou l'équipe. Les bonus peuvent améliorer les points d'aptitude, la flexibilité du plafond salarial ou le rendement des joueurs, tandis que le plafond empêche chaque alignement de simplement cumuler les cartes les mieux notées.",
+          "actions": [
+            "Construisez votre équipe autour de plusieurs liens utiles au lieu de forcer chaque carte à entrer dans un seul thème.",
+            "Évaluez la vitesse, le tir, la mise en échec et l'adéquation du rôle plutôt que de vous fier uniquement à la note globale.",
+            "Conservez suffisamment d'espace sous le plafond salarial et de la profondeur pour améliorer les trios ou paires plus faibles durant la saison."
+          ]
+        },
+        {
+          "title": "Modes hors ligne",
+          "category": "Jouer",
+          "summary": "Cup Chase propose une saison hors ligne de 18 matchs avec des rondes éliminatoires au meilleur des trois matchs et sa propre voie de récompenses. HUT Moments propose des défis de scénarios liés à des actions de hockey et des événements, tandis que le mode Non classé peut être utilisé pour tester des alignements sous moins de pression.",
+          "actions": [
+            "Utilisez Cup Chase pour obtenir des récompenses à votre propre rythme et contribuer au parcours d'XP principal de HUT.",
+            "Choisissez une difficulté de l'IA abordable, puis augmentez-la à mesure que votre alignement et vos compétences s'améliorent.",
+            "Utilisez HUT Moments pour vous exercer dans des situations spécifiques et relever des défis basés sur des objectifs."
+          ]
+        },
+        {
+          "title": "Matchs classés, Wildcard et HUT Champions",
+          "category": "Compétitif",
+          "summary": "Le mode Classé suit la progression de la cote de compétence et des divisions, Wildcard modifie les règles de roster à chaque cycle, et HUT Champions est la compétition hebdomadaire à enjeux élevés pour les joueurs qualifiés.",
+          "actions": [
+            "Jouez en mode Classé lorsque vos deux premiers trios d'attaquants, votre première paire de défenseurs et votre gardien de but sont fiables.",
+            "Reconstruisez votre équipe autour du plafond salarial ou des exigences de joueurs de chaque cycle Wildcard.",
+            "Participez à HUT Champions uniquement lorsque votre alignement et vos habitudes défensives sont prêts à affronter des adversaires plus coriaces."
+          ]
+        },
+        {
+          "title": "Saisons, programmes et semaines Chel",
+          "category": "Contenu en direct",
+          "summary": "Les saisons HUT ajoutent de nouvelles cartes, des événements, des objectifs et des récompenses sans supprimer l'alignement que vous avez déjà construit.",
+          "actions": [
+            "Les programmes principaux incluent Capitaines, Héros, Icônes et Recrues, tandis que les semaines Chel proposent du contenu quotidien thématique sur cinq jours.",
+            "Vérifiez le parcours d'XP et les objectifs limités avant de commencer chaque session.",
+            "Planifiez vos collections autour de récompenses accessibles au lieu d'échanger chaque élément de collection immédiatement."
+          ]
+        },
+        {
+          "title": "Suivez le fil d'actualité officiel de la NHL pour connaître les lancements de saison, les joueurs d'événement et les modifications du parcours de récompenses.",
+          "category": "Règles de probabilité des packs",
+          "summary": "Packs",
+          "actions": [
+            "Consultez le nombre total d'éléments et les catégories d'éléments garantis dans la description du Pack.",
+            "Considérez les probabilités affichées comme des probabilités par Pack plutôt que comme une progression cumulative.",
+            "Utilisez les récompenses garanties, les objectifs, les Ensembles et les cibles de l'Hôtel des ventes pour des améliorations prévisibles."
+          ]
+        }
+      ]
+    },
+    "nhlGameModes": {
+      "title": "NHL 27 Be A Pro, Franchise et World of Chel",
+      "intro": "Be A Pro s'articule autour de la carrière d'un joueur, le mode Franchise vous donne le contrôle d'une organisation de la NHL, et World of Chel se concentre sur un patineur personnalisé et la compétition entre clubs. Les dernières présentations détaillées d'EA fournissent la base du hub des modes de NHL 27.",
+      "tabs": [
+        {
+          "name": "Be A Pro",
+          "bestFor": "Les joueurs qui souhaitent une carrière scénarisée, d'espoir à vedette de la NHL.",
+          "summary": "Commencez au Mondial Junior, influencez votre rang de repêchage, gagnez votre place dans l'effectif de la NHL et progressez à travers des défis par chapitres avec des conséquences sur vos performances et hors glace.",
+          "features": [
+            "Chapitre d'ouverture au Mondial Junior et présentation du repêchage de la NHL.",
+            "Affectations en AHL, rappels, joueurs laissés de côté et promotions de trio.",
+            "Score de forme qui reflète les performances récentes et influence les opportunités.",
+            "Conversations à choix multiples avec l'entraîneur, le DG, l'agent et les médias.",
+            "Gestion de l'énergie, croissance des attributs, points X-Factor et progression dans l'arbre de compétences.",
+            "Jalons de carrière incluant les trophées, la Coupe Stanley et la retraite."
+          ],
+          "firstSteps": [
+            "Choisissez un poste et un archétype qui correspondent à votre style de jeu naturel.",
+            "Priorisez les objectifs de chapitre et le score de forme avant de courir après les statistiques personnelles.",
+            "Équilibrez l'entraînement, la récupération et le développement des X-Factor pour que l'énergie tienne sur de longues périodes."
+          ]
+        },
+        {
+          "name": "Mode Franchise",
+          "bestFor": "Les joueurs qui préfèrent la construction d'effectif, les contrats, l'entraînement, le repêchage et la gestion d'équipe à long terme.",
+          "summary": "Gérez les opérations de la NHL et de l'AHL via la gestion de l'alignement, les échanges de joueurs et de choix, les signatures, les renouvellements de contrats, les ballottages, les blessures, les rappels et la planification du repêchage.",
+          "features": [
+            "Gestion de l'alignement et de l'organisation en NHL et AHL.",
+            "Échanges de joueurs et de choix de repêchage.",
+            "Négociations de contrats, renouvellements et intérêt des joueurs.",
+            "Examen de la cuvée de repêchage et planification de l'effectif à long terme.",
+            "Gestion de l'entraîneur et chimie des trios influencée par les X-Factors.",
+            "Réclamations au ballottage, blessures, rappels en NHL et affectations en AHL."
+          ],
+          "firstSteps": [
+            "Examinez les contrats, les engagements sous le plafond salarial et la profondeur à chaque poste avant d'effectuer un échange.",
+            "Construisez des trios d'attaque et des paires défensives équilibrés au lieu de maximiser la note globale sur une seule unité.",
+            "Utilisez l'effectif de l'AHL pour développer la profondeur et pallier les blessures ou les mauvaises performances en NHL."
+          ]
+        },
+        {
+          "name": "World of Chel",
+          "bestFor": "Les joueurs qui veulent un patineur personnalisé, une progression en ligne et du multijoueur basé sur les clubs.",
+          "summary": "Créez un pro virtuel, élaborez des sélections avec des attributs et des points de capacité, gagnez des récompenses saisonnières et participez aux clubs EASHL et à d'autres formats de World of Chel.",
+          "features": [
+            "Sélections remaniées avec suppression des bonus, une gamme d'attributs plus large et des points de capacité.",
+            "Classes de joueurs, taille, latéralité, attributs et personnalisation des X-Factor.",
+            "Compétition de clubs EASHL incluant les formats 3 c. 3 et 6 c. 6.",
+            "Événements Élimination Ones et Threes.",
+            "Passe de saison gratuit de World of Chel avec des paliers à débloquer.",
+            "Invitations interconsoles entre PlayStation 5 et Xbox Series X|S dans World of Chel."
+          ],
+          "firstSteps": [
+            "Commencez avec une sélection équilibrée avant de vous spécialiser dans la vitesse, le tir, la défense ou le jeu physique.",
+            "Testez votre profil dans les modes entraînement et occasionnel avant de l'utiliser dans des matchs de club.",
+            "Coordonnez les positions et les aptitudes complémentaires avec vos coéquipiers au lieu de dupliquer le même rôle."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment",
+    "titleHighlight": "posées",
+    "subtitle": "Tout ce que vous devez savoir sur NHL 27",
+    "questions": [
+      {
+        "question": "Quand sort NHL 27 ?",
+        "answer": "EA SPORTS NHL 27 sortira à l'automne 2026 sur PlayStation 5 et Xbox Series X|S. La date de sortie exacte sera confirmée dans une mise à jour officielle ultérieure."
+      },
+      {
+        "question": "Sur quelles plateformes NHL 27 est-il disponible ?",
+        "answer": "NHL 27 est confirmé sur PlayStation 5 et Xbox Series X|S. La version PS5 prend en charge les fonctionnalités DualSense et les améliorations PS5 Pro, et la version Xbox est optimisée pour Series X|S."
+      },
+      {
+        "question": "Où puis-je ajouter NHL 27 à ma liste de souhaits ?",
+        "answer": "NHL 27 peut être ajouté à votre liste de souhaits dès maintenant via EA, le PlayStation Store et le Microsoft Store. L'inscription est gratuite et permet de recevoir une notification dès que le jeu est disponible."
+      },
+      {
+        "question": "Est-ce que NHL 27 aura une Deluxe Edition ?",
+        "answer": "Des éditions Standard et Deluxe pour NHL 27 sont prévues, avec des prix, des bonus de précommande et des détails sur l'accès anticipé qui seront publiés après la présentation complète."
+      },
+      {
+        "question": "Quels modes de jeu NHL 27 inclut-il ?",
+        "answer": "NHL 27 s'appuie sur la sélection habituelle de la série avec Be A Pro, Franchise mode, Hockey Ultimate Team et World of Chel, avec des changements spécifiques aux modes détaillés lors de la présentation et des présentations approfondies."
+      },
+      {
+        "question": "Est-ce que NHL 27 prend en charge le multijoueur en ligne ?",
+        "answer": "Oui. NHL 27 prend en charge jusqu'à 12 joueurs en ligne dans des modes comme World of Chel et EASHL, incluant des invitations cross-console entre PlayStation 5 et Xbox Series X|S."
+      },
+      {
+        "question": "Quand sortira la bande-annonce de présentation de NHL 27 ?",
+        "answer": "La bande-annonce officielle de présentation de NHL 27 est prévue pour le 16 juillet 2026, et sera diffusée sur les chaînes officielles d'EA SPORTS NHL."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Préparez-vous pour NHL 27",
+    "description": "Ajoutez EA SPORTS NHL 27 à votre liste de souhaits dès maintenant sur PS5 et Xbox Series X|S, et suivez les chaînes officielles d'EA SPORTS NHL pour les actualités de présentation, les bandes-annonces et les mises à jour de lancement.",
+    "joinCommunity": "Rejoignez la communauté",
+    "joinGame": "Ajouter NHL 27 à la liste de souhaits"
+  },
+  "footer": {
+    "title": "Wiki NHL 27",
+    "description": "Votre centre de ressources complet pour les actualités de sortie, la bande-annonce de présentation, les plateformes, les éditions, les modes, les ratings et les mises à jour officielles de EA SPORTS NHL 27.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "reddit": "Reddit",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Droits d'auteur",
+    "copyright": "© 2026 NHL 27 Wiki. Non affilié à Electronic Arts ou aux développeurs d'EA SPORTS NHL.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guide NHL 27",
+      "description": "Guide complet pour débutants et référence des controls de NHL 27, des premiers pas sur la glace aux mécaniques de base de patinage, de tir, de passe et de défense.",
+      "metaTitle": "Guide NHL 27 - Beginner controls et bases du gameplay",
+      "metaDescription": "Commencez fort avec le guide du débutant NHL 27 couvrant les controls, le patinage, les tirs, les passes, la défense, les mises au jeu et un programme d'entraînement pour la première heure.",
+      "categoryLabel": "GUIDE DE JEU",
+      "whatIs": "Qu'est-ce que le guide NHL 27 ?",
+      "whatIsDescription": "Le guide NHL 27 accompagne les nouveaux joueurs à travers les controls, les mécaniques sur la glace et un programme d'entraînement structuré pour la première heure, couvrant le patinage, les tirs, les passes, la défense et les mises au jeu sur PlayStation et Xbox.",
+      "why": "Pourquoi utiliser le guide NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Apprenez les controls",
+        "step1Description": "Maîtrisez les commandes Hybrid et Skill Stick pour le patinage, les tirs, les passes et les feintes",
+        "step2Title": "Créez un programme d'entraînement",
+        "step2Description": "Suivez une progression claire du Free Skate à vos premiers matchs Recrue",
+        "step3Title": "Jouez une défense plus intelligente",
+        "step3Description": "Défendez sans pénalité en utilisant le positionnement, le harponnage et le soulèvement de bâton"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides NHL 27"
+    },
+    "release": {
+      "title": "Sortie de NHL 27",
+      "description": "Tout sur la date de sortie de NHL 27, l'annonce, la présentation, la bêta, la précommande et le prix dans chaque région et boutique.",
+      "metaTitle": "Guide de la date de sortie, de la présentation, de la bêta et de la précommande de NHL 27",
+      "metaDescription": "Suivez la date de sortie de NHL 27, l'annonce, la bande-annonce de présentation, l'accès à la bêta, les détails de la précommande, les éditions et le prix sur PS5 et Xbox Series X|S.",
+      "categoryLabel": "SORTIE",
+      "whatIs": "Qu'est-ce que le hub de sortie de NHL 27 ?",
+      "whatIsDescription": "Le hub de sortie de NHL 27 couvre la fenêtre de lancement, le calendrier des annonces, le programme des révélations, l'accès à la bêta, les détails des précommandes et les prix sur le PlayStation Store et le Microsoft Store.",
+      "why": "Pourquoi suivre le calendrier de sortie de NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Connaître la fenêtre de lancement",
+        "step1Description": "Suivez la fenêtre de lancement confirmée pour l'automne 2026 et les heures de déverrouillage régional",
+        "step2Title": "Suivez la présentation",
+        "step2Description": "Suivez l'annonce, la bande-annonce de présentation et le calendrier de la campagne de la cover athlete",
+        "step3Title": "Planifiez votre précommande",
+        "step3Description": "Comparez les éditions, l'accès à la bêta et les options d'accès anticipé avant le lancement"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur la sortie de NHL 27"
+    },
+    "platforms": {
+      "title": "Plateformes de NHL 27",
+      "description": "Répartition complète de la prise en charge des plateformes de NHL 27 sur PS5, Xbox Series X|S, PS4, PC, Steam, Switch 2 et Game Pass, y compris le crossplay.",
+      "metaTitle": "Plateformes de NHL 27 - PS5, Xbox, PC, Steam, Switch 2 & Game Pass",
+      "metaDescription": "Vérifiez la prise en charge des plateformes de NHL 27 pour PS5, Xbox Series X|S, PS4, PC, Steam, Switch 2 et Game Pass, ainsi que les détails sur le crossplay et le jeu en ligne.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Que sont les plateformes de NHL 27 ?",
+      "whatIsDescription": "Les plateformes de NHL 27 couvrent toutes les plateformes confirmées et rumeurs, y compris la PS5, la Xbox Series X|S, la PS4, le PC, Steam, la Nintendo Switch 2 et le Game Pass, ainsi que la prise en charge du crossplay et du multijoueur en ligne.",
+      "why": "Pourquoi vérifier la prise en charge des plateformes de NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Choisissez la bonne console",
+        "step1Description": "Comparez les améliorations sur PS5, Xbox Series X|S et de la génération actuelle",
+        "step2Title": "Explorez le PC et Steam",
+        "step2Description": "Découvrez si NHL 27 arrive sur PC, Steam et Game Pass",
+        "step3Title": "Comprendre le crossplay",
+        "step3Description": "Découvrez comment le jeu cross-plateforme connecte PlayStation et Xbox"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides de plateforme NHL 27"
+    },
+    "cover": {
+      "title": "Jaquette de NHL 27",
+      "description": "Les révélations du cover athlete de NHL 27, les jaquettes des Éditions Standard et Deluxe, et les idées de stars de la jaquette les plus demandées par la communauté.",
+      "metaTitle": "NHL 27 Cover Athlete - Standard, Deluxe et idées de jaquettes",
+      "metaDescription": "Suivez la révélation du cover athlete de NHL 27 pour les Éditions Standard et Deluxe, ainsi que les idées de stars de la jaquette les plus demandées et les choix des fans.",
+      "categoryLabel": "JAQUETTE",
+      "whatIs": "Qu'est-ce que la jaquette de NHL 27 ?",
+      "whatIsDescription": "Le hub de la jaquette de NHL 27 suit la révélation officielle du cover athlete pour les Éditions Standard et Deluxe et rassemble les idées de stars de la jaquette les plus demandées par la communauté du hockey.",
+      "why": "Pourquoi suivre la révélation de la jaquette de NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Rencontrez le Cover Athlete",
+        "step1Description": "Découvrez qui figure sur les jaquettes des Éditions Standard et Deluxe",
+        "step2Title": "Suivez la révélation",
+        "step2Description": "Suivez la chronologie de la campagne de la jaquette en parallèle de la bande-annonce de révélation",
+        "step3Title": "Rejoignez la conversation",
+        "step3Description": "Explorez les idées de stars de la jaquette les plus demandées et les choix des fans"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles sur la jaquette de NHL 27"
+    },
+    "features": {
+      "title": "Fonctionnalités de NHL 27",
+      "description": "Les nouvelles fonctionnalités de NHL 27, le nouveau moteur, le crossplay, les nouvelles ligues, le hockey universitaire et l'intégration des Jeux Olympiques expliqués en détail.",
+      "metaTitle": "Fonctionnalités de NHL 27 - Nouveau moteur, crossplay, ligues et Jeux Olympiques",
+      "metaDescription": "FONCTIONNALITÉS",
+      "categoryLabel": "Quelles sont les fonctionnalités de NHL 27 ?",
+      "whatIs": "Les fonctionnalités de NHL 27 couvrent le nouveau moteur, les améliorations de gameplay, le crossplay, les nouvelles ligues, l'intégration du hockey universitaire et les modes Olympiques qui définissent la saison de hockey 2026.",
+      "whatIsDescription": "Pourquoi explorer les fonctionnalités de NHL 27 ?",
+      "why": "Découvrez le nouveau moteur",
+      "whySteps": {
+        "step1Title": "Comprenez la technologie et les améliorations de gameplay derrière NHL 27",
+        "step1Description": "Jouez sur plusieurs plateformes",
+        "step2Title": "Découvrez comment le crossplay connecte les joueurs sur PlayStation et Xbox",
+        "step2Description": "Découvrez de nouvelles ligues",
+        "step3Title": "Explorez les nouvelles ligues, le hockey universitaire et le contenu des Jeux Olympiques",
+        "step3Description": "En vedette et essentiels"
+      },
+      "featured": "Tous les guides des fonctionnalités de NHL 27",
+      "all": "Modes de NHL 27"
+    },
+    "modes": {
+      "title": "Guide complet des modes de jeu de NHL 27 couvrant le Franchise Mode, la Connected Franchise, Be A Pro, Hockey Ultimate Team et les agents libres.",
+      "description": "Modes de jeu de NHL 27 - Franchise, Be A Pro, HUT et plus",
+      "metaTitle": "NHL 27 Game Modes - Franchise, Be A Pro, HUT & More",
+      "metaDescription": "Maîtrisez chaque mode de jeu de NHL 27, y compris le Franchise Mode, Connected Franchise, Be A Pro, Hockey Ultimate Team et les mécaniques de Free Agency.",
+      "categoryLabel": "MODES DE JEU",
+      "whatIs": "Quels sont les modes de NHL 27 ?",
+      "whatIsDescription": "NHL 27 Modes détaille le Franchise Mode, Connected Franchise, Be A Pro, Hockey Ultimate Team et Free Agency, en expliquant le fonctionnement de chaque mode et les priorités.",
+      "why": "Pourquoi découvrir les modes de jeu de NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Gérer une Franchise",
+        "step1Description": "Gérez les rosters, les échanges, les drafts, les contrats et le plafond salarial",
+        "step2Title": "Bâtir une carrière",
+        "step2Description": "Faites progresser un joueur unique dans Be A Pro, de jeune espoir à vedette de la NHL",
+        "step3Title": "Rivalisez dans HUT",
+        "step3Description": "Composez vos alignements et grimpez dans Ranked, Wildcard et HUT Champions"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides des modes de NHL 27"
+    },
+    "roster": {
+      "title": "Roster de NHL 27",
+      "description": "Notes des joueurs de NHL 27, espoirs de la draft, agents libres et base de référence complète des rosters d'équipes pour la saison de hockey 2026.",
+      "metaTitle": "Roster de NHL 27 - Notes des joueurs, équipes, draft et agents libres",
+      "metaDescription": "Parcourez le roster de NHL 27 avec les notes des joueurs, la liste complète des équipes, les espoirs de la draft et les agents libres pour la saison 2026 à tous les postes.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "Qu'est-ce que le roster de NHL 27 ?",
+      "whatIsDescription": "Le hub du roster de NHL 27 regroupe les notes des joueurs par poste, la liste complète des équipes, les meilleurs espoirs de la draft et les agents libres marquants pour la saison de hockey 2026.",
+      "why": "Pourquoi utiliser le roster de NHL 27 ?",
+      "whySteps": {
+        "step1Title": "Consulter les notes des joueurs",
+        "step1Description": "Comparez les meilleurs attaquants, défenseurs et gardiens selon leur note globale et leurs attributs",
+        "step2Title": "Connaître les équipes",
+        "step2Description": "Parcourez la liste complète des équipes de NHL 27 et l'alignement des divisions",
+        "step3Title": "Suivre les nouveaux talents",
+        "step3Description": "Suivez les espoirs de la draft et les mouvements des agents libres pour la nouvelle saison"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides du roster de NHL 27"
+    },
+    "media": {
+      "title": "Médias de NHL 27",
+      "description": "Bandes-annonces, vidéos de gameplay, bande-son, critiques, actualités, rumeurs de la communauté, fils Reddit et mises à jour de la liste de souhaits de NHL 27 au même endroit.",
+      "metaTitle": "Médias de NHL 27 - Bandes-annonces, gameplay, bande-son, critiques et actualités",
+      "metaDescription": "MÉDIAS",
+      "categoryLabel": "Qu'est-ce que les médias de NHL 27 ?",
+      "whatIs": "Les médias de NHL 27 rassemblent chaque bande-annonce et vidéo de gameplay, les détails de la bande-son, la couverture des critiques, les actualités officielles, les rumeurs de la communauté, les discussions Reddit et les mises à jour de la liste de souhaits.",
+      "whatIsDescription": "Pourquoi suivre les médias de NHL 27 ?",
+      "why": "Regarder les révélations",
+      "whySteps": {
+        "step1Title": "Ne manquez aucune bande-annonce, premier aperçu du gameplay et présentation détaillée de NHL 27",
+        "step1Description": "Lire les critiques",
+        "step2Title": "Read Reviews",
+        "step2Description": "Suivez la couverture des tests et les actualités à l'approche du lancement",
+        "step3Title": "Rejoignez la communauté",
+        "step3Description": "Suivez les fils Reddit, les rumeurs, la bande-son et les actualités de la liste de souhaits"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les médias NHL 27"
+    }
   }
 }
