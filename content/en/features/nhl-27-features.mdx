@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "NHL 27 Features: Gameplay Mechanics & Mode Comparison",
+  description: "Discover the major NHL 27 features, including the return of Connected Franchise, real NHL EDGE playbook data, new commentators, and presentation upgrades.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=NHL+27+Features+Guide",
+  date: "2026-07-21",
+  author: "nhl 27 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **NHL 27 features** introduce the highly anticipated return of Connected Franchise with full crossplay support.
+- **EDGE Playbooks** utilize real-world positional data to diversify team playstyles and tactical behaviors on the ice.
+- **Atmosphere overhaul** includes a dynamic Orchestrator system, next-gen crowds, and customized home arena details.
+- **New commentary** introduces ESPN's John Buccigross and former goaltender Darren Pang to the broadcast booth.
+- **Official launch** is scheduled for September 11, 2026, with early access starting on September 4, 2026.
+</Callout>
+
+<Section icon={Trophy} title="Connected Franchise: The Core of NHL 27 Features">
+
+The suite of **nhl 27 features** marks a massive turning point for the franchise, headlined by the long-awaited return of Connected Franchise. This mode has sat at the absolute top of community wishlists for years, and its first iteration establishes a robust, modern foundation designed for social play, intense competition, and living league dynamics. Built with extensive community playtesting and user experience research, the mode aims to eliminate the navigation friction that plagued previous online franchise attempts.
+
+**Video Highlights:**
+- **GM Connected Returns**: Play in customizable leagues with up to 32 human-controlled teams.
+- **Commission Tools**: Full suite for managing rosters, resolving disputes, and advancing phases.
+- **Crossplay Support**: Roster sharing and league play are fully compatible across consoles.
+- **Flexible Schedules**: Run leagues at your own pace with adjustable season lengths.
+
+<YouTubeEmbed videoId="kT26DoVA1fk" title="NHL 27 NEW FEATURES AND GAME MODES REVIEW" />
+
+Connected Franchise allows players to build custom leagues with 3 to 32 human-controlled teams. To preserve competitive balance, the mode focuses heavily on human-versus-human interaction. While custom leagues can be populated with fewer than 32 players, any remaining spots are filled by passive teams that operate on the side to maintain realistic standings without disrupting the human economy. Roster sharing, custom draft classes, and offline creation tools are fully integrated with crossplay, ensuring that players on different platforms can participate in the same customized hockey universe.
+
+| Feature Option | Settings Range | Functional Benefit |
+| League Size | 3 to 32 players | Accommodates both small friend groups and massive online communities |
+| Roster Customization | Default or offline custom | Supports custom-created rosters and shared community files |
+| Schedule Flexibility | 15 to 82 games | Allows commissioners to shorten seasons to speed up progression |
+| Commissioner Tools | Full override suite | Enables trade vetoes, roster overrides, and manual game resolutions |
+
+<Callout type="warning" title="Anti-Exploit Design">
+To prevent players from taking advantage of AI logic, leagues with fewer than 32 human players restrict direct trading and gameplay matchups against non-human teams. This ensures league integrity and prevents artificial stat-padding.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Innovations and NHL EDGE Playbooks">
+
+On-ice gameplay has received a strategic overhaul to ensure that choosing a team is a tactical decision rather than just a roster selection. For the first time, every team in the league operates under its own unique playbook, powered directly by real-world NHL EDGE positional data. This integration ensures that teams mimic their real-life counterparts, utilizing specific zone entry strategies, defensive setups, and offensive cycles.
+
+<CardGrid cols={3}>
+  <Card title="Cycle-Heavy Strategy">
+    - **Patience-driven offense**
+    - Focuses on low-to-high passing
+    - Wears down opposing defensive stamina
+  </Card>
+  <Card title="Volume Shooting Style">
+    - **Aggressive puck-to-net mentality**
+    - Generates high rebound counts
+    - Thrives on net-front screen chaos
+  </Card>
+  <Card title="Balanced Strategy">
+    - **Adaptive neutral-zone transition**
+    - Quick counter-attack capabilities
+    - Highly responsive to defensive gaps
+  </Card>
+</CardGrid>
+
+Defensively, Cohesive Team AI improves player positioning and awareness. Defenders are significantly more aggressive at the blue line, stepping up to disrupt zone entries rather than backing off passively. Gap control has been tightened, and AI teammates demonstrate a much higher level of urgency when backchecking or shutting down dangerous cross-crease passing lanes.
+
+| Scenario | AI Offensive Behavior | AI Defensive Behavior |
+| Trailing in the 3rd | Stretches the ice, takes aggressive risks | Pinches defensemen, runs high-pressure trap |
+| Protecting a Lead | Cautious cycling, limits turnovers | Clogs lanes, collapses to protect the slot |
+| Power Play | Focuses on established playbook setups | Aggressive penalty-kill clears, active sticks |
+
+<Callout type="success" title="Contextual Strategy Shifts">
+AI-controlled teams now dynamically adapt their strategies on the fly based on score, time remaining, and momentum. You no longer need to manually adjust strategies mid-game to experience realistic, high-pressure hockey.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Authentic Atmospheres and Broadcast Upgrades">
+
+The visual and auditory presentation has been completely rebuilt to deliver what developers call "hockey tourism." Every arena now features highly specific, authentic details that reflect the home team's identity. From the dynamic castle and dragon animations in Las Vegas to authentic goal songs, crowd chants, and custom arena lighting, playing on the road feels like a genuine challenge.
+
+At the center of this presentation overhaul is the Orchestrator system. This engine monitors the flow of the game and dynamically coordinates the arena's response. Instead of relying on repetitive, pre-rendered sequences, the Orchestrator instantly adjusts crowd volume, arena lighting, jumbotron graphics, and power ring displays to match the emotional high points of the match, such as a game-saving breakaway stop or a late-period goal.
+
+| Presentation Element | Old System | NHL 27 Orchestrator |
+| Crowd Reactions | Static cheering loops | Dynamic scaling based on game context and momentum |
+| Arena Lighting | Uniform brightness | Dynamic, team-specific light shows during intros and goals |
+| Jumbotrons | Generic stat displays | Modern, broadcast-style graphics and real-time replay packages |
+| Broadcast Scorebugs | Outdated designs | Clean, minimalist overlays inspired by modern sports networks |
+
+A brand-new commentary team also enters the booth, featuring John Buccigross and Darren Pang. Buccigross brings signature play-by-play energy, while Darren Pang provides authentic analytical insights from his perspective as a former NHL goaltender. This combination replaces the long-running commentary style with a modern, analytical broadcast feel.
+
+<Callout type="tip" title="Home-Ice Advantage">
+Crowds are now highly reactive to momentum. If you are the away team, scoring an early goal will visibly quiet the crowd, while letting the home team build momentum will cause the crowd to roar, actively putting pressure on your players.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hockey Ultimate Team Coach Integration">
+
+Hockey Ultimate Team (HUT) players receive a major boost in strategic depth with the introduction of authentic NHL coaches and playbooks. Rather than relying on generic, fictional coaches, players can now recruit real-world bench bosses to lead their custom rosters. These coaches bring their actual historical strategies and playbooks, which directly impact how your team positions itself on the ice.
+
+<Steps>
+  <Step num="1" title="Select Your Coach">
+    Acquire and equip a licensed NHL coach to establish your team's tactical playbook.
+  </Step>
+  <Step num="2" title="Match Line Combinations">
+    Arrange your forward and defensive lines to match the preferred playstyle of your coach.
+  </Step>
+  <Step num="3" title="Activate Chemistry Boosts">
+    Unlock attributes and performance boosts by successfully linking players with shared coaching histories.
+  </Step>
+</Steps>
+
+This coaching integration adds a brand-new layer to team building. Line chemistry is no longer just about matching player types; it now requires aligning your roster with your coach's historical preferences. For example, deploying players who have thrived under a specific coach's system in real life will yield significant chemistry bonuses, boosting attributes like passing, defensive awareness, and shooting accuracy.
+
+<Callout type="warning" title="Playbook Consistency">
+Equipping a new coach will automatically update your active playbook in HUT. Ensure your active players possess the skating and physical attributes required to run your new coach's system effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Release Schedule and Platform Details">
+
+The launch timeline for this year's hockey simulator is locked in for September 2026. Players looking to secure their spot on the ice can choose between multiple editions, with early pre-orders granting access to the game a full week ahead of the worldwide release.
+
+<Checklist
+  id="pre-launch-prep"
+  title="Pre-Launch Preparation Checklist:"
+  items={[
+    "Verify console storage space on PlayStation 5 or Xbox Series X|S",
+    "Pre-order the Deluxe Edition to secure early access",
+    "Sign up for the Community Playtest starting July 22, 2026",
+    "Submit feature requests and feedback on the official Feedback Portal"
+  ]}
+/>
+
+| Launch Phase | Release Date (2026) | Target Platforms | Key Access Requirement |
+| Community Playtest | July 22 | PS5, Xbox Series X|S | Portal registration required |
+| Early Access | September 4 | PS5, Xbox Series X|S | Deluxe Edition pre-order |
+| Worldwide Launch | September 11 | PS5, Xbox Series X|S | Standard Edition purchase |
+
+<Callout type="info" title="Platform Availability">
+This iteration is built exclusively for next-generation consoles, focusing entirely on the hardware capabilities of the PlayStation 5 and Xbox Series X|S. No PC version is scheduled for release this season.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the major NHL 27 features introduced this year?",
+    answer: "The major features include the return of Connected Franchise with crossplay, authentic team playbooks powered by NHL EDGE data, a completely overhauled broadcast presentation with John Buccigross and Darren Pang, and the introduction of licensed coaches in HUT."
+  },
+  {
+    question: "Does Connected Franchise support crossplay and custom rosters?",
+    answer: "Yes. Connected Franchise is fully crossplay compatible, allowing players on PlayStation 5 and Xbox Series X|S to play in the same leagues. It also supports custom rosters, custom teams, and roster sharing across platforms."
+  },
+  {
+    question: "What is the Orchestrator system in the presentation?",
+    answer: "The Orchestrator is a new dynamic presentation engine that monitors the on-ice action and coordinates crowd reactions, arena lighting, jumbotrons, and camera angles to match the emotional flow of the game."
+  },
+  {
+    question: "When is the official release date for the game?",
+    answer: "Early access begins on September 4, 2026, for players who pre-order the Deluxe Edition, followed by the worldwide launch on September 11, 2026."
+  }
+]} />
+
+</Section>

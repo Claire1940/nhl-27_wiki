@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fonctionnalités de NHL 27 : Mécanismes de jeu et comparaison des modes",
+  description: "Découvrez les fonctionnalités majeures de NHL 27, notamment le retour de la Franchise Connectée, les vraies données de systèmes de jeu NHL EDGE, de nouveaux commentateurs et des améliorations de la présentation.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=NHL+27+Features+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki NHL 27"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **fonctionnalités de NHL 27** marquent le retour très attendu de la Franchise Connectée avec une prise en charge complète du crossplay.
+- Les **Playbooks EDGE** utilisent des données de positionnement réelles pour diversifier les styles de jeu et les comportements tactiques des équipes sur la glace.
+- La **refonte de l'ambiance** comprend un système dynamique Orchestrator, des foules de nouvelle génération et des détails personnalisés pour les patinoires à domicile.
+- De **nouveaux commentaires** font leur entrée avec John Buccigross d'ESPN et l'ancien gardien de but Darren Pang dans la cabine de diffusion.
+- Le **lancement officiel** est prévu pour le 11 septembre 2026, avec un accès anticipé à partir du 4 septembre 2026.
+</Callout>
+
+<Section icon={Trophy} title="Franchise Connectée : Le cœur des fonctionnalités de NHL 27">
+
+L'ensemble des **fonctionnalités de NHL 27** marque un tournant majeur pour la franchise, porté par le retour tant attendu de la Franchise Connectée. Ce mode figurait tout en haut de la liste de souhaits de la communauté depuis des années, et sa première itération établit des bases solides et modernes conçues pour le jeu social, la compétition intense et la dynamique d'une ligue vivante. Développé grâce à des tests approfondis avec la communauté et des recherches sur l'expérience utilisateur, ce mode vise à éliminer les frictions de navigation qui perturbaient les précédentes tentatives de franchise en ligne.
+
+**Points clés en vidéo :**
+- **Le retour de DG Connecté** : Jouez dans des ligues personnalisables comprenant jusqu'à 32 équipes contrôlées par des joueurs humains.
+- **Outils de commissaire** : Une suite complète pour gérer les effectifs, résoudre les litiges et faire progresser les phases de jeu.
+- **Prise en charge du crossplay** : Le partage d'effectifs et les matchs de ligue sont entièrement compatibles entre les différentes consoles.
+- **Calendriers flexibles** : Gérez vos ligues à votre propre rythme grâce à des durées de saison ajustables.
+
+<YouTubeEmbed videoId="kT26DoVA1fk" title="PRÉSENTATION DES NOUVELLES FONCTIONNALITÉS ET MODES DE JEU DE NHL 27" />
+
+La Franchise Connectée permet aux joueurs de créer des ligues personnalisées comprenant de 3 à 32 équipes contrôlées par des humains. Afin de préserver l'équilibre compétitif, ce mode se concentre fortement sur les interactions entre joueurs humains. Bien que les ligues personnalisées puissent être composées de moins de 32 joueurs, les places restantes sont occupées par des équipes passives qui fonctionnent en arrière-plan pour maintenir un classement réaliste sans perturber l'économie gérée par les humains. Le partage d'effectifs, les classes de repêchage personnalisées et les outils de création hors ligne sont entièrement intégrés au crossplay, garantissant que les joueurs sur différentes plateformes puissent participer au même univers de hockey personnalisé.
+
+| Option de fonctionnalité | Plage de paramètres | Bénéfice fonctionnel |
+| :--- | :--- | :--- |
+| Taille de la ligue | 3 à 32 joueurs | S'adapte aussi bien aux petits groupes d'amis qu'aux grandes communautés en ligne |
+| Personnalisation des effectifs | Par défaut ou personnalisés hors ligne | Prend en charge les effectifs créés sur mesure et les fichiers partagés par la communauté |
+| Flexibilité du calendrier | 15 à 82 matchs | Permet aux commissaires de raccourcir les saisons pour accélérer la progression |
+| Outils de commissaire | Suite complète de modifications | Permet de poser un veto sur les échanges, de modifier les effectifs et de résoudre manuellement les matchs |
+
+<Callout type="warning" title="Conception anti-exploit">
+Pour éviter que les joueurs ne profitent de la logique de l'IA, les ligues comptant moins de 32 joueurs humains restreignent les échanges directs et les matchs contre des équipes contrôlées par l'IA. Cela garantit l'intégrité de la ligue et empêche le gonflement artificiel des statistiques.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Innovations de gameplay et Playbooks NHL EDGE">
+
+Le gameplay sur la glace a bénéficié d'une refonte stratégique pour garantir que le choix d'une équipe soit une décision tactique plutôt qu'une simple sélection d'effectif. Pour la première fois, chaque équipe de la ligue fonctionne selon son propre playbook unique, directement alimenté par les données de positionnement réelles de NHL EDGE. Cette intégration garantit que les équipes imitent leurs homologues réels, en utilisant des stratégies d'entrée de zone spécifiques, des configurations défensives et des cycles offensifs.
+
+<CardGrid cols={3}>
+  <Card title="Stratégie axée sur le cycle">
+    - **Attaque basée sur la patience**
+    - Se concentre sur les passes bas-haut
+    - Épuise l'endurance défensive adverse
+  </Card>
+  <Card title="Style de tirs en volume">
+    - **Mentalité agressive de projection de la rondelle vers le filet**
+    - Génère un grand nombre de retours
+    - S'épanouit dans le chaos des écrans devant le filet
+  </Card>
+  <Card title="Stratégie équilibrée">
+    - **Transition adaptative en zone neutre**
+    - Capacités de contre-attaque rapides
+    - Très réactif aux brèches défensives
+  </Card>
+</CardGrid>
+
+En défense, l'IA d'équipe cohérente améliore le positionnement et la vigilance des joueurs. Les défenseurs se montrent nettement plus agressifs à la ligne bleue, s'avançant pour perturber les entrées de zone plutôt que de reculer passivement. Le contrôle de l'écart a été resserré, et les coéquipiers contrôlés par l'IA font preuve d'une bien plus grande urgence lors du repli défensif ou pour couper les lignes de passe transversales dangereuses.
+
+| Scénario | Comportement offensif de l'IA | Comportement défensif de l'IA |
+| :--- | :--- | :--- |
+| Mené au score au 3e tiers | Étire le jeu sur la glace, prend des risques agressifs | Fait monter les défenseurs, applique une trappe à haute pression |
+| Protection d'une avance | Cycle prudent, limite les pertes de rondelle | Obstrue les couloirs, se replie pour protéger l'enclave |
+| Jeu de puissance | Se concentre sur les schémas de jeu établis | Dégagements agressifs en infériorité numérique, bâtons actifs |
+
+<Callout type="success" title="Changements de stratégie contextuels">
+Les équipes contrôlées par l'IA adaptent désormais dynamiquement leurs stratégies à la volée en fonction du score, du temps restant et du momentum. Vous n'avez plus besoin d'ajuster manuellement vos stratégies en plein milieu du match pour vivre un hockey réaliste et sous haute pression.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ambiances authentiques et améliorations de la diffusion">
+
+La présentation visuelle et sonore a été entièrement reconstruite pour offrir ce que les développeurs appellent du « tourisme de hockey ». Chaque patinoire présente désormais des détails authentiques et très spécifiques qui reflètent l'identité de l'équipe à domicile. Des animations dynamiques de château et de dragon à Las Vegas aux chants de supporters, chansons de but authentiques et jeux de lumière personnalisés, jouer à l'extérieur ressemble à un véritable défi.
+
+Au centre de cette refonte de la présentation se trouve le système Orchestrator. Ce moteur surveille le déroulement du match et coordonne dynamiquement la réponse de la patinoire. Plutôt que de s'appuyer sur des séquences répétitives et pré-rendues, l'Orchestrator ajuste instantanément le volume de la foule, l'éclairage de l'arène, les graphismes de l'écran géant et les affichages des anneaux lumineux pour correspondre aux moments forts du match, comme un arrêt décisif sur une échappée ou un but en fin de période.
+
+| Élément de présentation | Ancien système | Orchestrator de NHL 27 |
+| :--- | :--- | :--- |
+| Réactions de la foule | Boucles d'encouragements statiques | Évolution dynamique basée sur le contexte du match et le momentum |
+| Éclairage de la patinoire | Luminosité uniforme | Spectacles lumineux dynamiques et spécifiques à l'équipe lors des entrées et des buts |
+| Écrans géants | Affichages de statistiques génériques | Graphismes modernes de style télévisuel et modules de ralenti en temps réel |
+| Bandeaux de score de diffusion | Designs obsolètes | Incrustations épurées et minimalistes inspirées des chaînes sportives modernes |
+
+Une toute nouvelle équipe de commentateurs fait également son entrée dans la cabine, composée de John Buccigross et Darren Pang. Buccigross apporte son énergie caractéristique pour la description des actions, tandis que Darren Pang fournit des analyses authentiques basées sur son expérience d'ancien gardien de but de la NHL. Cette combinaison remplace le style de commentaire de longue date par une ambiance de diffusion moderne et analytique.
+
+<Callout type="tip" title="Avantage de la glace à domicile">
+Les foules sont désormais extrêmement réactives au momentum. Si vous jouez à l'extérieur, marquer un but rapide calmera visiblement le public, tandis que laisser l'équipe locale prendre l'ascendant fera rugir la foule, mettant activement sous pression vos joueurs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Intégration des entraîneurs dans Hockey Ultimate Team">
+
+Les joueurs de Hockey Ultimate Team (HUT) bénéficient d'un élan majeur en profondeur stratégique grâce à l'introduction de véritables entraîneurs de la NHL et de leurs playbooks. Plutôt que de s'en remettre à des entraîneurs fictifs et génériques, les joueurs peuvent désormais recruter de vrais patrons de banc pour diriger leurs effectifs personnalisés. Ces entraîneurs apportent leurs stratégies et systèmes de jeu historiques réels, ce qui a un impact direct sur le positionnement de votre équipe sur la glace.
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre entraîneur">
+    Acquérez et équipez un entraîneur de la NHL sous licence pour établir le playbook tactique de votre équipe.
+  </Step>
+  <Step num="2" title="Associez les combinaisons de lignes">
+    Organisez vos lignes d'attaque et de défense pour qu'elles correspondent au style de jeu préféré de votre entraîneur.
+  </Step>
+  <Step num="3" title="Activez les bonus de chimie">
+    Débloquez des attributs et des bonus de performance en associant avec succès des joueurs ayant un historique commun avec cet entraîneur.
+  </Step>
+</Steps>
+
+Cette intégration des entraîneurs ajoute une toute nouvelle dimension à la construction d'équipe. La chimie des lignes ne consiste plus seulement à faire correspondre les types de joueurs ; elle nécessite désormais d'aligner votre effectif sur les préférences historiques de votre entraîneur. Pour l'exemple, aligner des joueurs qui ont excellé sous le système d'un entraîneur spécifique dans la vraie vie rapportera d'importants bonus de chimie, améliorant des attributs tels que les passes, la vigilance défensive et la précision des tirs.
+
+<Callout type="warning" title="Cohérence du Playbook">
+Équiper un nouvel entraîneur mettra automatiquement à jour votre playbook actif dans HUT. Assurez-vous que vos joueurs actifs possèdent les attributs physiques et de patinage requis pour appliquer efficacement le système de votre nouvel entraîneur.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Calendrier de sortie et détails des plateformes">
+
+Le calendrier de lancement du simulateur de hockey de cette année est fixé pour septembre 2026. Les joueurs souhaitant réserver leur place sur la glace peuvent choisir parmi plusieurs éditions, les précommandes anticipées offrant un accès au jeu une semaine entière avant la sortie mondiale.
+
+<Checklist
+  id="pre-launch-prep"
+  title="Liste de préparation avant le lancement :"
+  items={[
+    "Vérifier l'espace de stockage de la console sur PlayStation 5 ou Xbox Series X|S",
+    "Précommander l'Édition Deluxe pour garantir l'accès anticipé",
+    "S'inscrire au Playtest de la communauté à partir du 22 juillet 2026",
+    "Soumettre des demandes de fonctionnalités et des commentaires sur le portail de feedback officiel"
+  ]}
+/>
+
+| Phase de lancement | Date de sortie (2026) | Plateformes cibles | Condition d'accès clé |
+| :--- | :--- | :--- | :--- |
+| Playtest de la communauté | 22 juillet | PS5, Xbox Series X|S | Inscription requise sur le portail |
+| Accès anticipé | 4 septembre | PS5, Xbox Series X|S | Précommande de l'Édition Deluxe |
+| Lancement mondial | 11 septembre | PS5, Xbox Series X|S | Achat de l'Édition Standard |
+
+<Callout type="info" title="Disponibilité des plateformes">
+Cette itération est développée exclusivement pour les consoles de nouvelle génération, en se concentrant entièrement sur les capacités matérielles de la PlayStation 5 et de la Xbox Series X|S. Aucune version PC n'est prévue pour cette saison.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelles sont les principales fonctionnalités de NHL 27 introduites cette année ?",
+    answer: "Les fonctionnalités majeures comprennent le retour de la Franchise Connectée avec crossplay, des playbooks d'équipe authentiques alimentés par les données NHL EDGE, une présentation de diffusion complètement repensée avec John Buccigross et Darren Pang, ainsi que l'introduction d'entraîneurs sous licence dans HUT."
+  },
+  {
+    question: "La Franchise Connectée prend-elle en charge le crossplay et les effectifs personnalisés ?",
+    answer: "Oui. La Franchise Connectée est entièrement compatible avec le crossplay, permettant aux joueurs sur PlayStation 5 et Xbox Series X|S de jouer dans les mêmes ligues. Elle prend également en charge les effectifs personnalisés, les équipes personnalisées et le partage d'effectifs entre plateformes."
+  },
+  {
+    question: "Qu'est-ce que le système Orchestrator dans la présentation ?",
+    answer: "L'Orchestrator est un nouveau moteur de présentation dynamique qui surveille l'action sur la glace et coordonne les réactions de la foule, l'éclairage de la patinoire, les écrans géants et les angles de caméra pour correspondre au flux émotionnel du match."
+  },
+  {
+    question: "Quelle est la date de sortie officielle du jeu ?",
+    answer: "L'accès anticipé commence le 4 septembre 2026 pour les joueurs qui précommandent l'Édition Deluxe, suivi du lancement mondial le 11 septembre 2026."
+  }
+]} />
+
+</Section>

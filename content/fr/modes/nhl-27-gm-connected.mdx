@@ -1,0 +1,207 @@
+import { Map, Users, Settings, Trophy, Sparkles, Shield, Target, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "NHL 27 GM Connected : Guide de configuration de ligue en ligne et des fonctionnalités",
+  description: "Maîtrisez le nouveau mode GM Connected de NHL 27 grâce à notre guide sur la configuration des ligues en ligne, la gestion des effectifs et les outils de commissaire pour les ligues à 32 équipes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=GM+Connected+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki NHL 27",
+  keywords: "NHL 27, GM Connected, franchise en ligne, guide de ligue, gestion d'effectif, commissaire"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **NHL 27 GM Connected** prend en charge les ligues en ligne avec jusqu'à **32 équipes contrôlées par des humains**.
+- **Minimum de ligue** : nécessite au moins **3 joueurs humains** pour lancer une Franchise Connectée.
+- **Mécanique d'effectif** : les effectifs sont conservés d'une saison à l'autre, mais le **vieillissement et la retraite des joueurs** sont désactivés dans la version de lancement initiale.
+- **Outils de Commissaire** : permettent une planification flexible, l'approbation des échanges et une gestion personnalisée des effectifs pour garantir l'équité.
+- **Date de Lancement** : officiellement fixée au **11 septembre 2026** sur PlayStation 5 et Xbox Series X|S.
+</Callout>
+
+<Section icon={Map} title="Comprendre les fonctionnalités de NHL 27 GM Connected">
+
+Le retour de l'expérience de franchise en ligne arrive avec **nhl 27 gm connected**, officiellement intitulé "Franchise Connectée". Ce mode permet aux joueurs d'endosser le rôle de Directeur Général (GM) au sein d'un écosystème en ligne partagé, affrontant amis et rivaux dans la quête de la Coupe Stanley. Contrairement aux modes hors ligne traditionnels, chaque décision — des négociations d'échange aux réclamations de joueurs autonomes — se déroule dans un environnement vivant où la stratégie humaine est au premier plan.
+
+**Points forts en vidéo :**
+- **Support de 32 équipes** : Des ligues en ligne complètes permettant à chaque franchise de la NHL d'être contrôlée par un humain.
+- **Continuité multi-saisons** : Les ligues persistent sur plusieurs années, bien que certaines fonctionnalités de progression soient limitées au lancement.
+- **Flexibilité de ligue personnalisée** : Options pour gérer des ligues de style "Original Six" ou des calendriers modernes complets à 32 équipes.
+- **Supervision du commissaire** : Des outils approfondis pour les gestionnaires de ligue afin de gérer le calendrier et les litiges d'échange.
+
+<YouTubeEmbed videoId="BIz5x-7nQ2k" title="Parlons de la Franchise Connectée NHL 27 (GM Connected)" />
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous avez du mal à trouver 32 joueurs dédiés, n'oubliez pas que le mode prend en charge des tailles de ligue personnalisées. Vous pouvez commencer une ligue hautement compétitive avec seulement 6 équipes pour garantir que tous les participants restent actifs tout au long de la saison.
+</Callout>
+
+| Fonctionnalité | Franchise Connectée | Mode Franchise Hors Ligne |
+| :--- | :--- | :--- |
+| **Joueurs Humains Max** | 32 Joueurs | 1 Joueur |
+| **Interaction IA** | Limitée/Aucune | Interaction Totale |
+| **Vitesse de Sim** | Haute Performance | Standard |
+| **Gestion d'Effectif** | Échanges Humain-à-Humain | Échanges IA-à-Humain |
+| **Effectifs Persos** | Pris en charge | Pris en charge |
+| **Présentation Aréna** | 32 Arénas Authentiques | 32 Arénas Authentiques |
+
+</Section>
+
+<Section icon={Settings} title="Configuration et mise en place de la ligue">
+
+La mise en place d'une ligue **nhl 27 gm connected** réussie nécessite une planification minutieuse du calendrier et de la liste des participants. Le mode offre une flexibilité sans précédent dans la structuration de votre monde du hockey, permettant des saisons "sprint" raccourcies ou des marathons complets.
+
+<CardGrid cols={3}>
+  <Card title="Saison Courte">
+    - **15-25 Matchs**
+    - Haute intensité
+    - Idéal pour petits groupes
+    - Progression plus rapide
+  </Card>
+  <Card title="Saison Standard">
+    - **82 Matchs**
+    - Sensation NHL authentique
+    - Nécessite un engagement élevé
+    - Profondeur statistique totale
+  </Card>
+  <Card title="Ligue Personnalisée">
+    - **6-32 Équipes**
+    - Calendrier flexible
+    - Formats Original Six
+    - Séries éliminatoires sur mesure
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Exigence de Joueurs Minimum">
+Vous devez avoir un minimum de **3 équipes contrôlées par des humains** pour démarrer une ligue de Franchise Connectée. Si vous n'avez qu'un seul ami avec qui jouer, vous devrez trouver un troisième participant ou ouvrir un créneau à la communauté pour initialiser le fichier de sauvegarde.
+</Callout>
+
+### Outils de Gestion de Ligue
+Le commissaire a accès à plusieurs outils pour maintenir la ligue en mouvement. Comme la vitesse de simulation est nettement plus rapide dans NHL 27, les commissaires peuvent faire avancer le calendrier rapidement une fois que tous les matchs humains sont terminés.
+
+| Nom de l'Outil | Fonction | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- |
+| **Approbation d'Échange** | Réviser et refuser/accepter | Empêcher les transactions déséquilibrées |
+| **Forcer Victoire/Défaite** | Définir manuellement l'issue | Gérer les joueurs qui évitent les matchs |
+| **Expulser Manager** | Supprimer les utilisateurs inactifs | Maintenir les créneaux de la ligue remplis |
+| **Flexibilité Calendrier** | Ajuster les fenêtres de match | S'adapter aux différents fuseaux horaires |
+
+</Section>
+
+<Section icon={Users} title="Gestion des effectifs et mécaniques d'échange">
+
+La gestion des effectifs dans **nhl 27 gm connected** fonctionne différemment des modes GM traditionnels du passé. Le système est construit davantage comme une "ligue fantastique jouable", où les mouvements de joueurs sont simplifiés pour l'efficacité en ligne. L'un des changements les plus importants est la suppression des clauses de non-mouvement (NMC), permettant une plus grande flexibilité d'échange entre amis.
+
+<Steps>
+  <Step num="1" title="Chargement Initial de l'Effectif">
+    Chargez un effectif par défaut ou personnalisé. Utilisez des effectifs personnalisés pour placer des joueurs légendaires comme Wayne Gretzky dans des équipes spécifiques afin d'équilibrer la ligue.
+  </Step>
+  <Step num="2" title="Le Bloc d'Échanges">
+    Listez vos joueurs sur le bloc d'échanges. Comme il n'y a pas d'interaction IA pour les échanges, vous devez négocier directement avec d'autres GM humains via les outils de communication de la ligue.
+  </Step>
+  <Step num="3" title="Révision du Commissaire">
+    Une fois qu'un échange est conclu, il passe en état "En attente". Le commissaire de la ligue doit approuver la transaction avant que les joueurs ne soient déplacés entre les effectifs.
+  </Step>
+  <Step num="4" title="Réclamations de Joueurs Autonomes">
+    Au lieu de négociations standard, le marché des joueurs autonomes utilise un système de "Réclamation". Vous placez un montant d'enchère (ex: 9,5 M$) sur un joueur, et le plus offrant remporte la réclamation.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Continuité de l'Effectif">
+Bien que vous puissiez jouer plusieurs saisons, sachez que pour le lancement de 2026, le vieillissement et la retraite des joueurs ne sont pas pris en compte. Cela signifie que Sidney Crosby conservera son âge et sa note de départ, quel que soit le nombre de saisons complétées par votre ligue.
+</Callout>
+
+| Élément d'Effectif | Système de Franchise Connectée |
+| :--- | :--- |
+| **Contrats** | Focus sur une seule année au lancement |
+| **Vieillissement** | Statique (Pas de progression/régression) |
+| **Potentiel** | Caché/Non applicable en Année 1 |
+| **Joueurs Autonomes** | Système de réclamation type ballottage |
+| **Échanges** | Humains uniquement (Pas d'équipes IA) |
+
+</Section>
+
+<Section icon={Target} title="Le Guide du Commissaire">
+
+Le succès d'une ligue **nhl 27 gm connected** repose sur les épaules du commissaire. Avec la possibilité de personnaliser presque tous les aspects de l'expérience, le commissaire agit comme le "gouverneur" de la ligue.
+
+### Responsabilités Essentielles du Commissaire
+1. **Surveillance de l'activité** : S'assurer que les 3 à 32 joueurs jouent leurs matchs prévus dans les délais impartis.
+2. **Résolution de conflits** : Utiliser l'outil "Forcer Victoire" lorsqu'un joueur refuse de jouer un match ou rencontre des problèmes techniques.
+3. **Équilibrage des effectifs** : Utiliser des effectifs personnalisés avant le début de la ligue pour s'assurer que des équipes comme les Sharks de San Jose ou les Blackhawks de Chicago puissent rivaliser avec des puissances comme les Oilers d'Edmonton.
+
+<Callout type="success" title="Atmosphère et Immersion">
+NHL 27 propose un système de foule entièrement revu et des chants de but authentiques. En tant que commissaire, vous pouvez vous assurer que les paramètres de "Présentation Authentique" sont verrouillés sur "Activé" pour offrir à tous les joueurs la même expérience de diffusion de haute qualité avec John Buccigross et Darren Pang.
+</Callout>
+
+<Checklist
+  id="commish-checklist"
+  title="Liste de contrôle de configuration d'avant-saison :"
+  items={[
+    "Vérifier qu'au moins 3 joueurs humains ont rejoint",
+    "Définir la durée de la saison (15, 30 ou 82 matchs)",
+    "Configurer la date limite des échanges et les règles d'approbation",
+    "Réviser l'effectif personnalisé pour les notes et les bugs de latéralité",
+    "Établir un canal de communication de ligue (Discord/PSN/Xbox)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Naviguer parmi les limitations connues">
+
+Bien que le retour de **nhl 27 gm connected** soit une étape majeure, la première itération dans le nouveau moteur comporte des limitations spécifiques que les joueurs doivent comprendre avant de commencer une ligue à long terme.
+
+<CardGrid cols={2}>
+  <Card title="Absence de Progression">
+    - **Pas de vieillissement** : Les recrues ne s'améliorent pas ; les vétérans ne partent pas à la retraite.
+    - **Stats Statiques** : Les statistiques de la saison n'influencent pas les notes futures pour le moment.
+    - **Développement** : L'accent est mis sur le talent de l'utilisateur plutôt que sur la croissance de style RPG.
+  </Card>
+  <Card title="Restrictions de l'IA">
+    - **Pas d'échanges IA** : Vous ne pouvez pas échanger avec des équipes contrôlées par le processeur.
+    - **Équipes de remplacement** : Les équipes sans utilisateur humain ne peuvent pas être affrontées dans la plupart des formats personnalisés.
+    - **Repêchage** : Les repêchages d'entrée pour les nouveaux espoirs sont limités dans la version de lancement.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mises à jour futures">
+EA Sports a confirmé que la Franchise Connectée est un projet pluriannuel. Des fonctionnalités comme la progression des joueurs et un repêchage d'entrée complet sont prioritaires pour les futures mises à jour ou la version NHL 28 suivante. Utilisez le portail de commentaires officiel pour faire savoir aux développeurs de quelles fonctionnalités votre ligue a le plus besoin.
+</Callout>
+
+| Limitation | Impact sur le Gameplay | Solution de contournement |
+| :--- | :--- | :--- |
+| **Pas de vieillissement** | Les ligues à long terme semblent répétitives | Réinitialiser la ligue avec de nouveaux effectifs périodiquement |
+| **Min. 3 Joueurs** | Difficile pour les duos de jouer | Inviter un troisième compte "fantôme" |
+| **Pas d'équipes IA** | Les ligues peuvent sembler vides | S'en tenir à un nombre d'équipes réduit (ex: 6-12) |
+| **Grammaire Contrats** | L'interface utilise 'Réclamations' au lieu de 'Signatures' | Traiter le marché des joueurs autonomes comme un repêchage fantastique |
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je jouer à NHL 27 GM Connected seul contre l'IA ?",
+    answer: "Non. La Franchise Connectée est conçue comme un mode social en ligne. Elle nécessite un minimum de 3 joueurs humains pour démarrer, et les échanges ou les matchs contre des équipes IA ne sont pas pris en charge dans ce mode spécifique."
+  },
+  {
+    question: "Les joueurs partent-ils à la retraite ou s'améliorent-ils avec le temps dans NHL 27 GM Connected ?",
+    answer: "Dans la version de lancement 2026, le vieillissement, la retraite et la progression statistique des joueurs ne sont pas reportés d'une saison à l'autre. Les joueurs conservent leurs notes et leurs âges initiaux tout au long de la durée de vie de la ligue."
+  },
+  {
+    question: "Sur quelles plateformes ce mode est-il disponible ?",
+    answer: "NHL 27 GM Connected est disponible sur PlayStation 5 et Xbox Series X|S. Il n'est pas disponible sur les consoles de la génération précédente ni sur PC."
+  },
+  {
+    question: "Y a-t-il une limite au nombre d'échanges que nous pouvons effectuer ?",
+    answer: "Il n'y a pas de limite stricte sur le nombre d'échanges, mais toutes les transactions sont soumises aux outils d'approbation du commissaire pour garantir l'intégrité de la ligue."
+  }
+]} />
+
+</Section>
